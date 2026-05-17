@@ -4,7 +4,7 @@ Repository containing training notes, labs, scripts, progress checks, etc:
   - Knowledge
   - Skills
 
-# -------------------------------------------------------------------------
+# 
 
 First and foremost, who is the LOTR fan?
 
