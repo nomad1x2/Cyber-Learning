@@ -1,6 +1,6 @@
 # Secure Shell
 
-## Setting simple SSH on a fresh Ubuntu boot:
+## Setting up simple SSH on a fresh Ubuntu boot:
 - sudo apt install openssh-server -y
 - sudo systemctl start ssh
 - sudo systemctl status ssh
