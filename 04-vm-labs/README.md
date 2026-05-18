@@ -1,4 +1,8 @@
-# Labs
+# VM Labs
+
+VM-based lab notes
+
+---
 
 ## Environment
 
@@ -17,19 +21,8 @@ Hypervisor platform:
 
 ---
 
-## Known Issues / Notes
+## Known Issues
 
 - Laptop 1 physical bridge instability when using wired Ethernet -- switched to WiFi bridge
 - Kali Linux VM: mouse input issue resolved by upgrading VM hardware compatibility to 17.5+
 - Windows 11 firewall blocked ping by default (ICMP disabled inbound)
-
----
-
-## Directory Layout
-
-```text
-03-labs/
-├── debian/
-├── kali/
-├── ubuntu/
-└── windows/
