@@ -26,3 +26,4 @@ Hypervisor platform:
 - Laptop 1 physical bridge instability when using wired Ethernet -- switched to WiFi bridge
 - Kali Linux VM: mouse input issue resolved by upgrading VM hardware compatibility to 17.5+
 - Windows 11 firewall blocked ping by default (ICMP disabled inbound)
+- Debian install did not have default user added to sudoers file
