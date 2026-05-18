@@ -1,5 +1,5 @@
 # Cyber Learning
-First and foremost, who is the LOTR fan?
+Who is the LOTR fan?
 
 i.e., "One ring to rule them all."
 
