@@ -6,4 +6,4 @@ Fresh install for Win11
 
 ## IP Configs
 
-![Windows 11 setup](../../05-assets/images/windows_vm_setup.png)
+![Windows 11 setup](../../06-assets/images/windows_vm_setup.png)

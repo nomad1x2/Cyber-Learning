@@ -1,2 +1,2 @@
 ## IP configs
-![Ubuntu setup](../../05-assets/images/ubuntu_vm_setup.png)
+![Ubuntu setup](../../06-assets/images/ubuntu_vm_setup.png)
