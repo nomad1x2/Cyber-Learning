@@ -4,8 +4,8 @@
 
 Current lab setup consists of two host machines:
 
-- Laptop 1: Hypervisor hosting Windows 11 + Kali Linux VMs
-- Laptop 2: Hypervisor hosting Debian + Ubuntu VMs
+- Laptop 1: Hypervisor hosting Windows 11 + Kali Linux VMs (WiFi)
+- Laptop 2: Hypervisor hosting Debian + Ubuntu VMs (Ethernet cable)
 
 Network infrastructure:
 - GL.iNet wireless router
