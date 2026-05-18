@@ -20,6 +20,7 @@ Credly - https://www.credly.com/users/andrew.s
 # Layout:
 
 ## 00 – Fundamentals
+Fundamentals
 
 ---
 
@@ -35,6 +36,7 @@ Hands-on things
 
 ## 03 – Labs
 VM-based things
+- Debian
 - Kali
 - Ubuntu
 - Windows
@@ -54,3 +56,8 @@ Images, diagrams, screenshots, etc
 
 ## 06 – Templates
 Templates for notes/labs
+
+---
+
+## 07 – Miscellaneous
+Misc notes

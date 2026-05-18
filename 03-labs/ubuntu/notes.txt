@@ -1,3 +1,0 @@
-sudo apt install openssh-server -y
-sudo systemctl start ssh
-sudp systemctl status ssh
