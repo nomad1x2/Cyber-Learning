@@ -12,3 +12,11 @@ Checks if a target directory exists/creates it if not. Then checks for a specifi
 **Output:**
 
 ![dir_check output](../../06-assets/images/bash_dir_test.png)
+
+### `umask_calk.sh`
+
+Calculates and displays umask configuration based on either argument or system config, for both directory and file. Also displays associated symbolic permissions.
+
+**Output:**
+
+![umask_calk output](../../06-assets/images/bash_umask_calc.png)
