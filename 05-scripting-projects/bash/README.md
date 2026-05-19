@@ -19,4 +19,4 @@ Calculates and displays umask configuration based on either argument or system c
 
 **Output:**
 
-![umask_calk output](../../06-assets/images/bash_umask_calc.png)
+![umask_calc output](../../06-assets/images/bash_umask_calc.png)
