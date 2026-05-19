@@ -1,5 +1,4 @@
 # Bash Scripts
-
 Bash scripting projects
 
 ---

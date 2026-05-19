@@ -1,5 +1,12 @@
 # Fundamentals
-Environment setup / tools
+Environment setup / tools / base
+
+---
+
+## Lab setup
+Running the Terminator terminal emulator.
+
+Lab info located in [`04-vm-labs/`](../04-vm-labs/).
 
 ---
 
