@@ -1,3 +1,0 @@
-# Assets
-
-Screenshots and diagrams

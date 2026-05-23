@@ -1,7 +1,7 @@
 # Cyber Learning
 Who is the LOTR fan?
 
-i.e., "One ring to rule them all."
+"One ring to rule them all."
 
 ---
 
@@ -9,13 +9,10 @@ i.e., "One ring to rule them all."
 
 | Folder | Contents |
 |--------|----------|
-| 01-fundamentals | Environment setup, tooling, core references |
-| 02-knowledge-checks | Learning/research |
-| 03-skill-checks | Hands-on demos |
-| 04-vm-labs | VM-based lab notes — Debian, Kali, Ubuntu, Windows 11 |
-| 05-scripting-projects | Bash and Python projects |
-| 06-assets | Screenshots and diagrams |
-| 07-misc-notes | Miscellaneous notes and references |
+| `01-fundamentals/` | Environment setup, tooling, core references, misc writeups |
+| `02-knowledge/` | Research or written writeups |
+| `03-hands-on/` | Demos with command output and screenshots |
+| `assets/` | Screenshots and diagrams |
 
 ---
 
