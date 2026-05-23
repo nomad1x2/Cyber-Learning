@@ -48,7 +48,7 @@ Had to add user to sudo group after install:
 ```bash
 su -
 sudo usermod -aG sudo nomad
-# refresh group — takes effect in new session
+# refresh group - takes effect in new session
 ```
  
 ---
