@@ -7,7 +7,7 @@ Always check interface names with `ip a` before editing any config file
 
 ---
 
-## /etc/network/interfaces — Kali
+## /etc/network/interfaces - Kali
 
 Used on Kali, edit directly to set static IPs
 
@@ -48,7 +48,7 @@ ping 192.168.8.1
 
 ---
 
-## netplan — Ubuntu
+## netplan - Ubuntu
 
 Used on Ubuntu. Config lives in `/etc/netplan/`. File must be valid YAML, similar to python, whitespace matters
 
@@ -98,7 +98,7 @@ sudo nmcli con up "Wired connection 1"
 
 ---
 
-## nmcli — Debian
+## nmcli - Debian
 
 Used on Debian with NetworkManager. No config file to edit, just using CLI
 
