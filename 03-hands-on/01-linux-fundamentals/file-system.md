@@ -28,18 +28,23 @@
 ## Commands / Steps
 
 ### Where are binaries?
+```bash
 which ls
 whereis ls
+```
 
 ### Find user-installed binaries
+```bash
 ls /bin /usr/bin /usr/local/bin
-
+```
 ### Find optionally installed packages
+```bash
 ls /opt
-
+```
 ### Find system binaries
+```bash
 ls /sbin /usr/sbin /usr/local/sbin
-
+```
 ---
 
 ## Screenshots
