@@ -9,9 +9,10 @@ Who is the LOTR fan?
 
 | Folder | Contents |
 |--------|----------|
-| `01-fundamentals/` | Environment setup, tooling, core references, misc writeups |
+| `01-fundamentals/` | Environment setup, tooling, references |
 | `02-knowledge/` | Research or written writeups |
 | `03-hands-on/` | Demos with command output and screenshots |
+| `04-writeups/` | Simple writeups on different labs from THM/HTB/etc |
 | `assets/` | Screenshots and diagrams |
 
 ---
