@@ -1,5 +1,5 @@
 
-# Starting Point / Vaccine
+# Starting Point / Oopsie
 
 **About:** Oopsie is a very easy Linux machine that highlights the impact of information disclosure and broken access control in web applications. Website enumeration reveals a guest login with manipulatable cookies and user IDs allowing escalation to an admin role and access to a file upload feature. A PHP reverse shell is then uploaded to gain an initial foothold. Further enumeration exposes hardcoded credentials enabling lateral movement to another user. Finally, privilege escalation is achieved by abusing a misconfigured SUID binary through PATH hijacking.
 
@@ -17,7 +17,7 @@ Its a proxy
 
 ## Task 2 - What is the path to the directory on the webserver that returns a login page?
 
-Opened ip burpsuite and did a basic crawl on the site:
+Opened up burpsuite and did a basic crawl on the site:
 - Target > Open Browser > http://10.129.23.251
 
 ![burp screenshot](../../assets/images/htb/burp1.png)
@@ -162,7 +162,7 @@ www-data@oopsie:/var/www/html$
 
 Not that I needed that anyway i guess... more geewhiz... 
 
-because you can just run the `find` command with `- group`:
+because you can just run the `find` command with `-group`:
 
 ```bash
 www-data@oopsie:/var/www/html$ find / -group bugtracker
