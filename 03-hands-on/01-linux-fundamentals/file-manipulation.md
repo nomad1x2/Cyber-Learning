@@ -78,8 +78,47 @@ grep -C 3 "pattern" /file.txt
 ## dd
 
 ```bash
-# Need to do a little more research for dd
+# Disk/partition imaging; create a raw byte-for-byte backup
+dd if=/dev/sda of=/backup/sda.img bs=4M status=progress
+
+# Clone one disk directly to another
+dd if=/dev/sda of=/dev/sdb bs=4M
+
+# Create a bootable USB from an ISO
+dd if=image.iso of=/dev/sdb conv=fsync
+
+# Create a file of exact size (100MB of zeros)
+dd if=/dev/zero of=empty.img bs=1M count=100
+
+# Skip bytes - read starting at an offset (skip first 2 blocks)
+dd if=/dev/sda of=output.img bs=512 skip=2
+
+# Convert a file to uppercase (conv= has misc text transforms too)
+dd if=input.txt of=output.txt conv=ucase
+
+# Wipe a drive by overwriting with zeros
+dd if=/dev/zero of=/dev/sdb bs=1M status=progress
+
+# Wipe a drive with random data
+dd if=/dev/urandom of=/dev/sdb bs=1M status=progress
 ```
+
+| Option | Description |
+|--------|-------------|
+| `if=` | Input file (or device) |
+| `of=` | Output file (or device) |
+| `bs=` | Block size (`512`, `4M`, `1K`, etc) |
+| `count=` | Number of blocks to copy |
+| `skip=` | Blocks to skip on input |
+| `seek=` | Blocks to skip on output |
+| `conv=ucase | lcase` | Convert text to upper/lowercase |
+| `conv=noerror` | Continue on read errors; useful for damaged disk recovery |
+| `conv=fsync` | Flush write cache to hardware before exit; important for USB imaging |
+| `conv=swab` | Swap every pair of bytes (endianness fix) |
+| `conv=notrunc` | Don't truncate output; preserves data beyond what dd writes |
+| `status=progress` | Show live progress and speed |
+
+_Need to be careful, `dd` will silently overwrite data_
 
 ---
 
