@@ -46,7 +46,7 @@ Here are the section types and some section names:
 
 - Also, each program could potentially have different/non-standard section names
 
-![man](../../assets/images/man.png)
+![man](../../assets/images/linux/man.png)
 
 ---
 
@@ -56,7 +56,7 @@ We can use `which` or `where/whereis` to find where a command is ran from/the lo
 - `which` to locate where the binary is located (abs path)
 - `whereis/where` to locate the binary, source, and manual page files for a command
 
-![which-where](../../assets/images/where-which.png)
+![which-where](../../assets/images/linux/where-which.png)
 
 ---
 
@@ -66,7 +66,7 @@ We can use `apropos` to search through the man pages for keywords in description
 - Same thing as `man -k <string>`
 - This could lead to similar commands, or we could look in the `SEE ALSO` section
 
-![apropos](../../assets/images/apropos.png)
+![apropos](../../assets/images/linux/apropos.png)
 
 ---
 
@@ -74,4 +74,4 @@ We can use `apropos` to search through the man pages for keywords in description
 
 - We can use `type` to check if a command is an alias, builtin, or binary
 
-![type](../../assets/images/type.png)
+![type](../../assets/images/linux/type.png)
