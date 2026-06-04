@@ -41,5 +41,3 @@ Ref:
 ---
 
 ## Notes / Gotchas
-
-_Anything that tripped you up, edge cases, or worth flagging for review._
