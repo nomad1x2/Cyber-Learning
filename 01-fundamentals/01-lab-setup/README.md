@@ -7,12 +7,13 @@ VM-based lab and setup notes:
  
 ## Network Config
  
-| Machine | Hostname | 							IPs	 			    |      Tunnel      | 
+| Machine | Username | 							IPs	 			    |      Tunnel      | 
 |---------|----------|------------------------------|------------------| 
 | Kali    | nomad    | 192.168.8.200 / 1.1.1.10 | wireguard - 10.0.0.2 |
 | Debian  | User01   | 192.168.8.203 / 2.2.2.40 | openvpn - 10.2.0.1   |
 | Ubuntu  | User02   | 192.168.8.202 / 2.2.2.30 | wireguard - 10.0.0.1 |
 | Windows | User03   | 192.168.8.201 / 1.1.1.20 | openvpn - 10.2.0.2   |
+| Pi Zero W | pi   | 192.168.8.50 |  N/A   |
  
 ---
  
@@ -26,6 +27,7 @@ VM-based lab and setup notes:
  
 - Laptop 1: Hypervisor hosting Windows 11 + Kali Linux VMs (WiFi)
 - Laptop 2: Hypervisor hosting Debian + Ubuntu VMs (Ethernet)
+- Pi Zero W: 2.4ghz WiFi
 - Router: GLiNet wireless, tethered internet
 
 | Network| Network    | 
@@ -36,11 +38,13 @@ VM-based lab and setup notes:
 
 - Hypervisor: VMware
 ---
- 
-## Kali
- 
+
+## Raspberry Pi Zero W (1)
+
+Running the `2026-04-21-raspios-trixie-armhf-lite` image
+
 ---
- 
+
 ## Debian
  
 Had to add user to sudo group after install:
@@ -50,11 +54,7 @@ su -
 sudo usermod -aG sudo nomad
 # refresh group - takes effect in new session
 ```
- 
----
- 
-## Ubuntu
- 
+
 ---
  
 ## Windows
