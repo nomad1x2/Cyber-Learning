@@ -34,7 +34,7 @@ traceroute google.com
 
 **Lab results:**
 - Hop 1: `192.168.8.1` - glinet router (default gateway)
-- Hop 2: `10.2.0.1` - openvpn tunnel endpoint (Debian), suggests traffic is being routed through the VPN before reaching the Internet (need to verify?)
+- Hop 2: `10.2.0.1` - openvpn tunnel endpoint (Debian), but why is this here? need to verify
 - Hop 3: `* * *` - no response from hop (filtering or rate limiting)
 - Hops 4-9: ISP backbone, destination
 
