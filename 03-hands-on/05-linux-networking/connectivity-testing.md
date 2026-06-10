@@ -131,6 +131,6 @@ nc -zv 192.168.8.202 22
 
 - Nmap host discovery (-sn) on a local subnet typically uses ARP, not ICMP
 - Firewalls may block ping while still allowing TCP connections
-- traceroute and mtr might show ``* * *`` but may still be reachable
+- traceroute and mtr might show `* * *` but may still be reachable
 - Service/version and OS detection (-sV/O) significantly increases scan time
 - Ping success does not guarantee that application ports are reachable
