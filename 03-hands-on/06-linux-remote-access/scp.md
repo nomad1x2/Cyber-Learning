@@ -40,11 +40,11 @@ scp -6 -r ../scp pi@'[fe80::ba27:ebff:feb1:a%eth0]':~/
 ---
 
 ## Screenshots
-![scp kali to ubuntu](../../assets/screenshots/linux/scp1.png)
-![scp ubuntu to kali](../../assets/screenshots/linux/scp2.png)
-![scp directory](../../assets/screenshots/linux/scp3.png)
-![scp non-standard port](../../assets/screenshots/linux/scp4.png)
-![scp ipv6](../../assets/screenshots/linux/scp5.png)
+![scp kali to ubuntu](../../assets/images/linux/scp1.png)
+![scp ubuntu to kali](../../assets/images/linux/scp2.png)
+![scp directory](../../assets/images/linux/scp3.png)
+![scp non-standard port](../../assets/images/linux/scp4.png)
+![scp ipv6](../../assets/images/linux/scp5.png)
 
 ---
 

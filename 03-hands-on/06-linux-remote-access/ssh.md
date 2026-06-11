@@ -65,7 +65,7 @@ ssh ubuntu
 ssh -i ~/.ssh/pi_jump pi@192.168.8.50
 ```
 
-![ssh config and basic connections](../../assets/screenshots/linux/ssh1.png)
+![ssh config and basic connections](../../assets/images/linux/ssh1.png)
 
 ---
 
@@ -83,7 +83,7 @@ ssh ubuntu
 
 `Last login: ... from 192.168.8.50` shows the connection came from the Pi and not the Kali machine directyly
 
-![ssh jump via pi](../../assets/screenshots/linux/ssh2.png)
+![ssh jump via pi](../../assets/images/linux/ssh2.png)
 
 ---
 
@@ -107,7 +107,7 @@ sudo ss -tulpn | grep 7000
 tcp   LISTEN 0      128        127.0.0.1:7000       0.0.0.0:*    users:(("ssh",pid=16937,fd=6))
 ```
 
-![local port forwarding](../../assets/screenshots/linux/ssh3.png)
+![local port forwarding](../../assets/images/linux/ssh3.png)
 
 ---
 
@@ -127,7 +127,7 @@ ssh -R 7000:localhost:6969 ubuntu
 wget http://localhost:7000
 ```
 
-![remote port forwarding](../../assets/screenshots/linux/ssh4.png)
+![remote port forwarding](../../assets/images/linux/ssh4.png)
 
 ---
 
@@ -155,7 +155,7 @@ sudo ss -tupna | grep 2222
 tcp   ESTAB  0      0       192.168.8.50:2222  192.168.8.200:35210 users:(("sshd-session",pid=1533,fd=7),("sshd-session",pid=1525,fd=7))
 ```
 
-![non-standard port](../../assets/screenshots/linux/ssh5.png)
+![non-standard port](../../assets/images/linux/ssh5.png)
 
 ---
 
@@ -183,7 +183,7 @@ sudo ss -tupna | grep wlan
 tcp   ESTAB  0      0      [fe80::ba27:ebff:feb1:a]%wlan0:22    [fe80::20c:29ff:fe6f:ec78]:42654 users:(("sshd-session",pid=1683,fd=7),("sshd-session",pid=1674,fd=7))
 ```
 
-![ipv6 ssh](../../assets/screenshots/linux/ssh6.png)
+![ipv6 ssh](../../assets/images/linux/ssh6.png)
 
 ---
 
