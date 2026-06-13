@@ -190,4 +190,4 @@ sudo ip route add 2.2.2.0/24 dev wg0
 - `-A` appends to the end, `-I` inserts at the top by default
 
 - Masquerade requires `ip_forward=1` on the forwarding machine
-	- Link to that writeup: [IPv4 Forwarding](../ipv4-forwarding.md)
+	- Link to that writeup: [IPv4 Forwarding](ipv4-forwarding.md)
