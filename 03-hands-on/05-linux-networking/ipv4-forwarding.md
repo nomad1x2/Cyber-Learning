@@ -65,3 +65,4 @@ sysctl.d(5) or sysctl.conf(5)
 - Without forwarding enabled, packets arriving on one interface destined for another network are dropped instead of forwarded
   - But, enabling IP forwarding only allows the kernel to route packets
   - Firewall, routing, or NAT rules might still be required to successfully pass traffic
+- Repeated the steps above to enable MASQUARADING section: [iptables - Masquerade](../iptables.md#masquerade--nat)

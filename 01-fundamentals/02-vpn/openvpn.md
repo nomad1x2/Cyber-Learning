@@ -10,11 +10,14 @@ Using nmcli to configure interfaces, then setting up OpenVPN using Easy-RSA for 
 - Enable IP forwarding:
 
 ```bash
-echo "net.ipv4.ip_forward=1" > /etc/sysctl.conf
+echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 sudo sysctl -p
 ```
 
 - Install OpenVPN and Easy-RSA:
+- Ref:
+  - https://easy-rsa.readthedocs.io/en/latest/
+  - https://linuxconfig.org/vpn-virtual-private-network-and-openvpn
 
 ```bash
 sudo apt update
@@ -45,7 +48,7 @@ cd ~/easy-rsa
 ./easyrsa sign-req client win11client
 ```
 
-- Copy certs to `/etc/openvpn/` so the service can access them:
+- Copy server certs to `/etc/openvpn/` so the service can access them:
 
 ```bash
 sudo cp ~/easy-rsa/pki/ca.crt /etc/openvpn/
@@ -53,6 +56,15 @@ sudo cp ~/easy-rsa/pki/issued/server.crt /etc/openvpn/
 sudo cp ~/easy-rsa/pki/private/server.key /etc/openvpn/
 sudo cp ~/easy-rsa/pki/dh.pem /etc/openvpn/
 ```
+
+- Copy client certs just to home directory so client can pull them easily:
+
+```bash
+sudo cp -p ~/easy-rsa/pki/ca.crt ~/
+sudo cp -p ~/easy-rsa/pki/issued/win11client.crt ~/
+sudo cp -p ~/easy-rsa/pki/private/win11client.key ~/
+```
+
 
 - Create `/etc/openvpn/server.conf`:
 
@@ -64,7 +76,8 @@ ca /etc/openvpn/ca.crt
 cert /etc/openvpn/server.crt
 key /etc/openvpn/server.key
 dh /etc/openvpn/dh.pem
-server 10.2.0.0 255.255.255.0
+topology subnet
+server 172.16.20.0 255.255.255.0
 push "route 2.2.2.0 255.255.255.0"
 keepalive 10 120
 persist-key
@@ -83,9 +96,9 @@ sudo systemctl status openvpn@server
 - Transfer client certs to Win11 with SCP (Win11 PowerShell):
 
 ```powershell
-scp User01@192.168.8.203:/home/User01/ca.crt C:\Users\User03\Desktop\
-scp User01@192.168.8.203:/home/User01/win11client.crt C:\Users\User03\Desktop\
-scp User01@192.168.8.203:/home/User01/win11client.key C:\Users\User03\Desktop\
+scp User01@192.168.8.203:~/ca.crt "C:\Program Files\OpenVPN Connect\config"
+scp User01@192.168.8.203:~/win11client.crt "C:\Program Files\OpenVPN Connect\config"
+scp User01@192.168.8.203:~/win11client.key "C:\Program Files\OpenVPN Connect\config"
 ```
 
 ### Commands ran:
@@ -103,8 +116,7 @@ Connecting to the Debian OpenVPN server.
 ### Steps
 
 - Download and install OpenVPN GUI
-- Import OpenVPN profile into the GUI
-- The `win11client.ovpn` config:
+- Create the `win11client.ovpn` config:
 
 ```
 client
@@ -121,11 +133,14 @@ key win11client.key
 verb 3
 ```
 
-- Verify the tunnel:
+- Move the files into the `C:\Program Files\OpenVPN Connect\config` directory
+- Import OpenVPN profile into the GUI and connect (or double click new .ovpn file)
+
+- Verify the tunnel is up:
 
 ```powershell
-ping 10.2.0.1 (debian - tun0 peer)
-ping 2.2.2.40 (debian - ens37)
+ping 172.16.20.1 (debian, tun0 interface - peer)
+ping 2.2.2.40 (debian, ens37 interface - network)
 ```
 
 ### Commands ran:

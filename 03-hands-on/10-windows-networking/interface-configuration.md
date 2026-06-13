@@ -34,7 +34,7 @@ Get-NetAdapter
 New-NetIPAddress -InterfaceAlias "Ethernet1" -IPAddress 1.1.1.20 -PrefixLength 24
 
 # Add a persistent route to reach vmnet2 through the OpenVPN tunnel
-route -p add 2.2.2.0 mask 255.255.255.0 10.2.0.1
+route -p add 2.2.2.0 mask 255.255.255.0 172.16.20.1
 
 # Verify
 ipconfig

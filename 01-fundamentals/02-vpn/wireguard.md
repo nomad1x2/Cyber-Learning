@@ -23,17 +23,17 @@ cat /etc/wireguard/privatekey
 cat /etc/wireguard/publickey
 ```
 
-- Create `/etc/wireguard/wg0.conf` - Ubuntu is the server with IP `10.0.0.1`:
+- Create `/etc/wireguard/wg0.conf` - Ubuntu is the server with IP `172.16.10.1`:
 
 ```ini
 [Interface]
-Address = 10.0.0.1/30
+Address = 172.16.10.1/30
 ListenPort = 51820
 PrivateKey = <ubuntu_private_key>
 
 [Peer]
 PublicKey = <kali_public_key>
-AllowedIPs = 10.0.0.2/32, 1.1.1.0/24
+AllowedIPs = 172.16.10.2/32, 1.1.1.0/24
 ```
 
 - Bring up the tunnel:
@@ -74,17 +74,17 @@ cat /etc/wireguard/privatekey
 cat /etc/wireguard/publickey
 ```
 
-- Create `/etc/wireguard/wg0.conf` - Kali is the client at tunnel IP `10.0.0.2`, connecting to Ubuntu:
+- Create `/etc/wireguard/wg0.conf` - Kali is the client at tunnel IP `172.16.10.2`, connecting to Ubuntu:
 
 ```ini
 [Interface]
-Address = 10.0.0.2/30
+Address = 172.16.10.2/30
 PrivateKey = <kali_private_key>
 
 [Peer]
 PublicKey = <ubuntu_public_key>
 Endpoint = 192.168.8.202:51820
-AllowedIPs = 10.0.0.1/32, 2.2.2.0/24
+AllowedIPs = 172.16.10.1/32, 2.2.2.0/24
 PersistentKeepalive = 25
 ```
 
@@ -94,7 +94,7 @@ PersistentKeepalive = 25
 sudo wg-quick up wg0
 sudo systemctl enable wg-quick@wg0
 wg show
-ping 10.0.0.1 (ubuntu wg0)
+ping 172.16.10.1 (ubuntu wg0)
 ping 2.2.2.30 (ubuntu ens37)
 ```
 

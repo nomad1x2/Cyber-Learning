@@ -9,10 +9,10 @@ VM-based lab and setup notes:
  
 | Machine | Username | 							IPs	 			    |      Tunnel      | 
 |---------|----------|------------------------------|------------------| 
-| Kali    | nomad    | 192.168.8.200 / 1.1.1.10 | wireguard - 10.0.0.2 |
-| Debian  | User01   | 192.168.8.203 / 2.2.2.40 | openvpn - 10.2.0.1   |
-| Ubuntu  | User02   | 192.168.8.202 / 2.2.2.30 | wireguard - 10.0.0.1 |
-| Windows | User03   | 192.168.8.201 / 1.1.1.20 | openvpn - 10.2.0.2   |
+| Kali    | nomad    | 192.168.8.200 / 1.1.1.10 | wireguard - 172.16.10.2 |
+| Debian  | User01   | 192.168.8.203 / 2.2.2.40 | openvpn - 172.16.20.1   |
+| Ubuntu  | User02   | 192.168.8.202 / 2.2.2.30 | wireguard - 172.16.10.1 |
+| Windows | User03   | 192.168.8.201 / 1.1.1.20 | openvpn - 172.16.20.x/24  |
 | Pi Zero W | pi   | 192.168.8.50 |  N/A   |
  
 ---
