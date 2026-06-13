@@ -1,15 +1,17 @@
+
 # Interface Configuration
 
 ## Overview
 
-Linux interface configuration varies by distro/renderer. Using `/etc/network/interfaces` (Kali), `netplan` (Ubuntu), and `nmcli` (NetworkManager)
+Linux interface configuration varies by distro/renderer. This lab uses `/etc/network/interfaces` on Kali, `netplan` on Ubuntu, and `nmcli` with NetworkManager on Debian
+
 Always check interface names with `ip a` before editing any config file
 
 ---
 
 ## /etc/network/interfaces - Kali
 
-Used on Kali, edit directly to set static IPs
+Edit `/etc/network/interfaces` directly to configure static IP addresses
 
 ```bash
 sudo vim /etc/network/interfaces
@@ -39,6 +41,23 @@ iface eth1 inet static
 sudo systemctl restart networking
 ping 192.168.8.1
 ```
+
+### IPv6 (Added post IPv4 config)
+Add to `/etc/network/interfaces` under the eth0 block:
+```
+iface eth0 inet6 static
+    address fd00::200
+    netmask 64
+```
+```bash
+sudo ifdown eth0 && sudo ifup eth0
+# ipv6 address not found during ifdown since none was configured previously
+
+ip -6 addr show eth0
+# inet6 fd00::200/64 scope global
+```
+
+![ipv6 kali](../../assets/images/linux/ipv6kali.png)
 
 | Command | Description |
 |---------|-------------|
@@ -83,12 +102,22 @@ sudo netplan apply
 ping 192.168.8.200
 ```
 
-If the interface doesn't come up with netplan, bring it up manually with nmcli:
+Since NetworkManager is the renderer, interfaces can also be managed with nmcli after the netplan config:
 
 ```bash
 sudo nmcli con mod "Wired connection 1" ipv4.addresses 2.2.2.30/24 ipv4.method manual
 sudo nmcli con up "Wired connection 1"
 ```
+
+### IPv6 (Added post IPv4 config)
+```bash
+sudo nmcli connection modify "netplan-ens33" ipv6.addresses "fd00::202/64" ipv6.method manual
+sudo nmcli connection up "netplan-ens33"
+
+ip -6 addr show ens33
+# inet6 fd00::202/64 scope global
+```
+![ipv6 ubuntu](../../assets/images/linux/ipv6ubuntu.png)
 
 | Command | Description |
 |---------|-------------|
@@ -100,7 +129,7 @@ sudo nmcli con up "Wired connection 1"
 
 ## nmcli - Debian
 
-Used on Debian with NetworkManager. No config file to edit, just using CLI
+Used on Debian with NetworkManager. NetworkManager stores the connection profiles, so configuration can be done through nmcli:
 
 ```bash
 # Check existing connections
@@ -126,7 +155,17 @@ ping 192.168.8.202
 
 ---
 
-## Screenshots
+## IPv6 Connectivity Test
+```bash
+# Ping between VMs (from kali to Ubuntu and win11)
+ping -6 fd00::202
+ping -6 fd00::201
+
+# SSH over IPv6
+ssh -6 User02@fd00::202
+```
+
+![ipv6 ssh](../../assets/images/linux/ipv6ssh.png)
 
 ---
 
@@ -134,5 +173,6 @@ ping 192.168.8.202
 
 - Interface names (`eth0`, `ens33`, etc.) aren't the same on every machine, always run `ip a` first
 - Netplan is strict about YAML whitespace
-- If netplan renderer is `NetworkManager`, nmcli and netplan could conflict
-- `/etc/network/interfaces` and netplan should not both be managing the same interface
+- Systems using `ifupdown` usually have interfaces unmanaged by NetworkManager, so nmcli may not affect them
+- Ubuntu uses `renderer: NetworkManager` in netplan:
+  - Netplan creates the initial connection config but NetworkManager manages it afterward. Initially used netplan to configure IPv4, and then used nmcli for adding IPv6

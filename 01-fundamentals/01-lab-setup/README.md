@@ -65,7 +65,8 @@ Fresh install required bypassing the network/Microsoft account requirement:
 SHIFT+F10 -> OOBE\BYPASSNRO
 ```
  
-Reference: https://dev.to/alanwest/how-to-set-up-windows-11-without-a-microsoft-account-2026-edition-4c7a
+Ref:
+- https://dev.to/alanwest/how-to-set-up-windows-11-without-a-microsoft-account-2026-edition-4c7a
  
 ---
  
@@ -74,4 +75,5 @@ Reference: https://dev.to/alanwest/how-to-set-up-windows-11-without-a-microsoft-
 - Laptop 1 physical bridge instability on wired Ethernet — switched to WiFi bridge
 - Kali VM: mouse input issue resolved by upgrading VM hardware compatibility to 17.5+
 - Windows 11 firewall blocked ping by default (ICMP disabled inbound)
+  - Also, install `VMWare Tools`
 - Debian install did not add default user to sudoers

@@ -43,6 +43,20 @@ ping 192.168.8.1
 ping 1.1.1.10
 ```
 
+### IPv6
+```powershell
+# Check existing IPv6
+Get-NetIPAddress -InterfaceAlias "Ethernet0" -AddressFamily IPv6
+
+# Assign static IPv6
+New-NetIPAddress -InterfaceAlias "Ethernet0" -IPAddress "fd00::201" -PrefixLength 64
+
+# Test IPv6 connectivity
+ping fd00::200
+```
+
+![ipv6 windows](../../assets/images/windows/ipv6windows.png)
+
 | Command | Description |
 |---------|-------------|
 | `Get-NetAdapter` | List all adapters and their current state |
@@ -53,12 +67,10 @@ ping 1.1.1.10
 
 ---
 
-## Screenshots
-
----
-
 ## Notes / Gotchas
 
 - Adapter names in PowerShell must match exactly, use `Get-NetAdapter` first to confirm
 - `-p` flag on `route add` makes the route persistent across reboots
-- If `New-NetIPAddress` throws a conflict error, remove the existing address first with `Remove-NetIPAddress`
+- If an address is already assigned, windows may reject a new config until the existing address is removed
+  - Ex: `Remove-NetIPAddress -InterfaceAlias "Ethernet0" -IPAddress "fd00::201"`
+- New-NetIPAddress persists automatically across reboots
