@@ -19,7 +19,7 @@ sudo mkdir -p /mnt/iso/rocky
 sudo mount -o loop Rocky-x86_64-boot.iso /mnt/iso/rocky
 ```
 
-![mounted1](../../assets/images/linux/mounted1.png)
+![mounting1](../../assets/images/linux/mounting1.png)
 
 
 ```bash
@@ -34,7 +34,7 @@ ls /mnt/iso/
 for iso in ~/fs/*.iso; do sudo umount /mnt/iso/$(basename "$iso" .iso); done
 ```
 
-![mounted2](../../assets/images/linux/mounted2.png)
+![mounting2](../../assets/images/linux/mounting2.png)
 
 
 **Loop breakdown:**
