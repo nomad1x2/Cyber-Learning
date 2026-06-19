@@ -44,6 +44,7 @@ VM-based lab and setup notes:
 ## Raspberry Pi Zero W (1)
 
 Running the `2026-04-21-raspios-trixie-armhf-lite` image
+
 Add route to reach Metasploitable through Ubuntu:
 - `sudo route add -net 172.16.0.0 netmask 255.255.255.0 gw 192.168.8.202`
 
