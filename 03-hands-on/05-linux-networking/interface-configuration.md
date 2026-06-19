@@ -71,6 +71,7 @@ ip -6 addr show eth0
 ## netplan - Ubuntu
 
 Used on Ubuntu. Config lives in `/etc/netplan/`. File must be valid YAML, similar to python, whitespace matters
+- Edited the original netplan: included new network for metasploitable
 
 ```bash
 sudo vim /etc/netplan/02-interfaces.yaml
@@ -79,10 +80,12 @@ sudo vim /etc/netplan/02-interfaces.yaml
 ```yaml
 network:
   version: 2
-  renderer: NetworkManager
+  renderer: networkd
   ethernets:
+  
     ens33:
       dhcp4: false
+      dhcp6: false
       addresses:
         - 192.168.8.202/24
       routes:
@@ -91,40 +94,74 @@ network:
       nameservers:
         addresses:
           - 192.168.8.1
+          
     ens37:
       dhcp4: false
+      dhcp6: false
       addresses:
         - 2.2.2.30/24
+        
+    ens38:
+      dhcp4: false
+      dhcp6: false
+      addresses:
+        - 172.16.0.1/24
 ```
 
 ```bash
-# Apply and verify
+# Fix permissions then apply and verify
+sudo chmod 600 /etc/netplan/02-interfaces.yaml
 sudo netplan apply
 ping 192.168.8.200
-```
 
-Since NetworkManager is the renderer, interfaces can also be managed with nmcli after the netplan config:
+User02@ubuntu:/etc/netplan$ networkctl list
+IDX LINK  TYPE      OPERATIONAL SETUP     
+  1 lo    loopback  carrier     unmanaged
+  2 ens33 ether     routable    configured
+  3 ens37 ether     routable    configured
+  4 ens38 ether     routable    configured
+  5 wg0   wireguard routable    unmanaged
 
-```bash
-sudo nmcli con mod "Wired connection 1" ipv4.addresses 2.2.2.30/24 ipv4.method manual
-sudo nmcli con up "Wired connection 1"
+5 links listed.
 ```
 
 ### IPv6 (Added post IPv4 config)
-```bash
-sudo nmcli connection modify "netplan-ens33" ipv6.addresses "fd00::202/64" ipv6.method manual
-sudo nmcli connection up "netplan-ens33"
 
-ip -6 addr show ens33
-# inet6 fd00::202/64 scope global
+Add ipv6 address directly to the yaml under ens33:
+
+```bash
+sudo vim /etc/netplan/02-interfaces.yaml
 ```
+
+```yaml
+    ens33:
+      dhcp4: false
+      dhcp6: false
+      addresses:
+        - 192.168.8.202/24
+        - fd00::202/64
+```
+
+```bash
+sudo netplan apply
+
+User02@ubuntu:/etc/netplan$ ip -6 addr show ens33
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    altname enp2s1
+    altname enx000c295864fb
+    inet6 fd00::202/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::20c:29ff:fe58:64fb/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+```
+
 ![ipv6 ubuntu](../../assets/images/linux/ipv6ubuntu.png)
 
 | Command | Description |
 |---------|-------------|
 | `sudo netplan apply` | Apply netplan config |
-| `sudo nmcli con mod` | Modify a connection's settings |
-| `sudo nmcli con up` | Bring a connection up |
+| `networkctl list` | Show all interfaces and their state |
+| `networkctl status <iface>`  | Detailed status for a specific interface |
 
 ---
 
@@ -180,11 +217,13 @@ ssh -6 User02@fd00::202
 
 ## Notes / Gotchas
 
-- Interface names (`eth0`, `ens33`, etc.) aren't the same on every machine, always run `ip a` first
+- Interface names (`eth0`, `ens33`, etc) aren't the same on every machine; always run `ip a` first
 - Netplan is strict about YAML whitespace
-- Systems using `ifupdown` usually have interfaces unmanaged by NetworkManager, so nmcli may not affect them
-- Ubuntu uses `renderer: NetworkManager` in netplan:
-  - Netplan creates the initial connection config but NetworkManager manages it afterward. Initially used netplan to configure IPv4, and then used nmcli for adding IPv6
-- Debian had some issues keeping interface configs after reboot - edited int config to stick to MAC
-- Debian also hadd keyboard input lag within the VM, fix by adding `keyboard.vusb.enable = "TRUE"` to the VMs `.vmx` file:
+- Ubuntu vm uses `renderer: networkd`, edit the yaml and run `sudo netplan apply` for any changes
+- Netplan will warn about file permissions if the yaml is too open
+  - fixed with `sudo chmod 600 /etc/netplan/*.yaml`
+- `ens38` added for isolated metasploitable network (`172.16.0.0/24`)
+  - requires a third NIC in VMware attached to a separate vmnet
+- Debian had some issues keeping interface configs after reboot; pinned to MAC address to fix
+- Debian keyboard input lag in VM; fixed by adding `keyboard.vusb.enable = "TRUE"` to the VM's `.vmx` file
   - Ref: https://community.broadcom.com/vmware-cloud-foundation/discussion/ws-1761-keyboard-lag-with-ubuntu-guest
