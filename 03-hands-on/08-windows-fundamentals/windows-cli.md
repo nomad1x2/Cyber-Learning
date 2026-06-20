@@ -124,7 +124,7 @@ Successfully processed 0 files; Failed processing 1 files
 | `(R)` | Read |
 | `(W)` | Write |
 
-![icacls1](../../assets/screenshots/windows/icacls1.png)
+![icacls1](../../assets/images/windows/icacls1.png)
 
 ## Recovering denied permissions
 
@@ -167,7 +167,7 @@ Successfully processed 1 files; Failed processing 0 files
 | `/A` | Gives ownership to the Administrators group instead of current user |
 | `/remove:d` | Removes only deny entries for the specified user |
 
-![icacls2](../../assets/screenshots/windows/icacls2.png)
+![icacls2](../../assets/images/windows/icacls2.png)
 
 ---
 
@@ -331,8 +331,8 @@ Media_Share  C:\SharedMedia
 The command completed successfully.
 ```
 
-![shared folder verify](../../assets/screenshots/windows/shared1.png)
-![shared folder permissions](../../assets/screenshots/windows/shared2.png)
+![shared folder verify](../../assets/images/windows/shared1.png)
+![shared folder permissions](../../assets/images/windows/shared2.png)
 
 ---
 
