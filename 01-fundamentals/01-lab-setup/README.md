@@ -13,8 +13,10 @@ VM-based lab and setup notes:
 | Debian  | User01   | 192.168.8.203 / 2.2.2.40 | openvpn - 172.16.20.1   |
 | Ubuntu  | User02   | 192.168.8.202 / 2.2.2.30 / 172.16.0.1 | wireguard - 172.16.10.1 |
 | Windows | User03   | 192.168.8.201 / 1.1.1.20 | openvpn - 172.16.20.x/24  |
-| Pi Zero W | pi   | 192.168.8.50 |  N/A   |
-| Metasploitable | msfadmin   | 172.16.0.50 |  N/A   |
+| Pi Zero W | pi   | 192.168.8.50 |  (ProxyJump to target net / ubuntu pivot)
+| Windows XP | Target01   | 172.16.0.27 |  N/A   |
+| Metasploitable | Target02   | 172.16.0.50 |  N/A   |
+| Windows 7 | Target03   | 172.16.0.150 |  N/A   |
  
 ---
  
@@ -27,7 +29,8 @@ VM-based lab and setup notes:
 ## Environment
  
 - Laptop 1: Hypervisor hosting Windows 11 + Kali Linux VMs (WiFi)
-- Laptop 2: Hypervisor hosting Debian + Ubuntu + Metasploitable VMs (Ethernet)
+- Laptop 2: Hypervisor hosting Debian + Ubuntu (Ethernet)
+  - Plus target machines (Metasploitable, Windows 7, Windows XP)
 - Pi Zero W: 2.4ghz WiFi
 - Router: GLiNet wireless, tethered internet
 
@@ -45,7 +48,7 @@ VM-based lab and setup notes:
 
 Running the `2026-04-21-raspios-trixie-armhf-lite` image
 
-Add route to reach Metasploitable through Ubuntu:
+Add route to reach Target nets through Ubuntu (not persistent):
 - `sudo route add -net 172.16.0.0 netmask 255.255.255.0 gw 192.168.8.202`
 
 ---
@@ -62,7 +65,7 @@ sudo usermod -aG sudo nomad
 
 ---
  
-## Windows
+## Windows 11
  
 Fresh install required bypassing the network/Microsoft account requirement:
  
