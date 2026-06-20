@@ -65,6 +65,29 @@ Then in fstab instead of username=User03,password=PASSWORD:
 
 Anyone who can read fstab (/etc/fstab is world-readable by default) can see plaintext passwords, but now the credentials file is only readable by root
 
+---
+
+## Serving a Share from Linux (Samba Server)
+
+```bash
+sudo apt install samba -y
+sudo mkdir -p /srv/RemoteShare
+sudo chmod 777 /srv/RemoteShare
+sudo vim /etc/samba/smb.conf
+```
+Add at the bottom:
+```
+[RemoteShare]
+   path = /srv/RemoteShare
+   browseable = yes
+   read only = no
+   guest ok = yes
+```
+```bash
+sudo systemctl restart smbd nmbd
+```
+
+---
 
 ## Screenshots
 
@@ -76,3 +99,5 @@ Anyone who can read fstab (/etc/fstab is world-readable by default) can see plai
 ## Notes / Gotchas
 
 - Click here for fstab notes: [fstab](fstab.md)
+- From Windows, map shared drives with `net use Z: \\192.168.8.202\RemoteShare`
+  - Or through File Explorers "Map network drive" [Link to writeup](../10-windows-networking/network-drive-mapping.md)
