@@ -43,7 +43,7 @@ takeown /F C:\Users\User03\Documents\Demo /R /A
 icacls C:\Users\User03\Documents\Demo /grant User03:F /T
 ```
 
-Also shown in the [Windows-Cli writeup](windows-cli.md#change-file-permissions-icacls)
+Also shown in the [Windows-Cli writeup](windows-cli.md#recovering-denied-permissions)
 
 ![removing](../../assets/images/windows/gui5.png)
 
