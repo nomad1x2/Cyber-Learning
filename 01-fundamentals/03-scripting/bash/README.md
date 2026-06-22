@@ -27,4 +27,4 @@ Checks if root; flushes/configures interfaces; updates/upgrades; launches firefo
 
 **Output:**
 
-![setupscript output](../../../assets/images/scripting/setupscript.gif)
+![setupscript output](../../../assets/images/scripting/setupscript.png)
