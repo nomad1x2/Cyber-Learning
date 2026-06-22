@@ -84,4 +84,4 @@ Mode                 LastWriteTime         Length Name
 ## Notes / Gotchas
 
 - Sometimes when `net use` is used to map a shared drive, the shared drive doesnt show up in the explorer
-- Setting up Samba share from linux: [Link to writeup](../10-windows-networking/network-drive-mapping.md)
+- Setting up Samba share from linux: [Link to writeup](../03-linux-storage-mounting/remote-drive-mount.md)

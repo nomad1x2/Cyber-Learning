@@ -100,4 +100,4 @@ sudo systemctl restart smbd nmbd
 
 - Click here for fstab notes: [fstab](fstab.md)
 - From Windows, map shared drives with `net use Z: \\192.168.8.202\RemoteShare`
-  - Or through File Explorers "Map network drive" [Link to writeup](../10-windows-networking/network-drive-mapping.md)
+  - Or through File Explorers "Map network drive" [Link to writeup](../09-windows-networking/network-drive-mapping.md)
