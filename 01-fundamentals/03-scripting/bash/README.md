@@ -20,3 +20,11 @@ Calculates and displays umask configuration based on either argument or system c
 **Output:**
 
 ![umask_calc output](../../../assets/images/scripting/bash_umask_calc.png)
+
+### `lab-setup.sh`
+
+Checks if root; flushes/configures interfaces; updates/upgrades; launches firefox (as user) and launches terminator (as user) with preset layout; kills oldest terminator process to clean up
+
+**Output:**
+
+![setupscript output](../../../assets/images/scripting/setupscript.gif)
