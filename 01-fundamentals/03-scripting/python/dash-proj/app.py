@@ -2,12 +2,13 @@
 Refs:
 - https://compile7.org/serialize-and-deserialize/how-to-serialize-and-deserialize-xml-in-dash/#reading-xml-files
 - https://realpython.com/python-dash/
+- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_symbol
 """
 
 import xml.etree.ElementTree as ET
 import pandas as pd
 import plotly.graph_objects as go
-from dash import Dash, dcc, html
+from dash import Dash, Input, Output, dcc, html, MATCH
 
 #read xml
 tree = ET.parse("svc-os-vulns.xml")
@@ -81,8 +82,10 @@ for host in root.findall("host"):
                             for vuln_table in table.findall("table"):
                                 vuln_id = vuln_table.find("elem[@key='id']")
                                 vuln_cvss = vuln_table.find("elem[@key='cvss']")
-                                if vuln_id is not None and float(vuln_cvss.text) >= 7.0:
-                                    vuln_data.append([port_id, vuln_id.text, vuln_cvss.text])
+                                #lets do a 8.0 because there are way too many cves
+                                if vuln_id is not None and float(vuln_cvss.text) >= 8.0:
+                                    if "cve" in vuln_id.text.lower() or "vuln" in vuln_id.text.lower():
+                                        vuln_data.append([port_id, vuln_id.text, vuln_cvss.text])
             if len(port_data) > 0:
                 open_ports.append(port_data)
             if len(vuln_data) > 0:
@@ -159,36 +162,132 @@ app.title = "Nmap Dash"
 
 host_table = []
 
-#iterate through each host and create rows
+
+#iterate through each host and create the host table
 for host_ip, host in host_info.items():
+    
+    #[0] is always service info
+    port_vuln_match = {}
+    
+    if host.get("ports"):
+        for p in host.get("ports"):
+            port_vuln_match[''.join(p[:1])] = [p[1:]]
+    
+    #match vuln to port
+    if host.get("vulns"):
+        for all_vulns in host.get("vulns"):
+            for v in all_vulns:
+                if v[0] in port_vuln_match:
+                    port_vuln_match[v[0]].append(v[1:])
+                    
+    #build rows first
+    rows = []
+    for r in port_vuln_match:
+        rows.append(
+            html.Tr(children=[
+                html.Td(f"{r} - {' '.join(port_vuln_match[r][0])}"),
+                html.Td(', '.join(v[0] for v in port_vuln_match[r][1:]) or "None identified by scan"), #check this one, looks like got rid of some hostscript vulns?
+            ]),
+        )
+    
     vuln_count = sum(len(group) for group in host.get('vulns', 'Unk'))
 
-    row = html.Tr([
-        html.Td(host_ip),
-        html.Td(host.get('os', 'Unknown')),
-        html.Td(len(host.get('ports', 'Unk'))),
-        html.Td(vuln_count),
+    host_data = html.Div(children=[
+        html.Table(
+            html.Thead(
+                html.Tr(className="collapsible", id={"type": "host-btn", "index": host_ip}, n_clicks=0, children=[
+                    html.Th(host_ip),
+                    html.Th(host.get('os', 'Unknown')),
+                    html.Th(f'Open Ports: {len(host.get('ports', 'Unk'))}'),
+                    html.Th(f'Vulnerabilities: {vuln_count}'),
+                ]),
+            ),
+        ),
+        html.Div(className="content", id={"type": "host-detail", "index": host_ip}, style={"display": "none"}, children=[
+            html.Table(className="detail-table", children=[
+                html.Tr(children=[
+                    html.Td("Port / Service:"),
+                    html.Td("Vulnerabilities:"),
+                ]),
+                *rows,
+            ]),
+        ]),
     ])
+    host_table.append(host_data)
 
-    host_table.append(row)
+app.layout = html.Div(children=[
     
-app.layout = html.Div(
-    children=[
-        html.H1(children="Nmap Scan Dashboard"),
-        html.P(f"Scan time: {scan_time}"),
-        html.P(f"Number of hosts: {hosts_up}"),
-        html.H2("Results"),
-        html.Table(children=[
-            html.Tr([
-                html.Th("Host",),
-                html.Th("Operating System",),
-                html.Th("Open Ports",),
-                html.Th("Vulnerabilities",),
-            ])
-            ,*host_table,
-        ],)
-    ]
+    #<div>
+    html.Div(className="header", children=[
+        html.H1(children="Nmap Scan Dashboard", className="header-title"),
+        html.P(f"Scan time: {scan_time}", className="header-description"),
+        html.P(f"Number of hosts: {hosts_up}", className="header-description"),
+    ]),
+    #</div>
+
+
+    
+    #<div>
+    html.Div(className="row", children=[
+    
+    
+        #<card 1 - graph>
+        html.Div(className="column column-25", children=[
+            html.Div(className="card", children=[
+                #<graph data>
+                html.Div(children=[
+                    "Graph PlaceholdeR"
+                ]),
+                #</graph data>
+            ]),
+        ]),
+        #<card 1>
+
+
+        #<card 2 - host data>
+        html.Div(className="column column-75", children=[
+            html.Div(className="card", children=[
+            
+                #<div>
+                html.Div(children=[
+                    html.Div(children=[
+                        html.Table(
+                            html.Tr(children=[
+                                html.Th("Host"),
+                                html.Th("Operating System"),
+                                html.Th("Open Ports"),
+                                html.Th("Vulnerabilities"),
+                            ]),
+                        ),
+                    ]),
+                ]),
+                #</div>
+
+            
+            
+            
+                html.Div(className="host_data", children=[
+                    *host_table,
+                ]),
+            ]),
+        ]),
+        #<card 2>
+        
+        
+    ])
+    #</div>
+
+
+   
+])
+
+@app.callback(
+    Output({"type": "host-detail", "index": MATCH}, "style"),
+    Input({"type": "host-btn", "index": MATCH}, "n_clicks"),
+    prevent_initial_call=True,
 )
+def toggle(n_clicks):
+    return {"display": "block"} if n_clicks % 2 == 1 else {"display": "none"}
 
 if __name__ == "__main__":
     app.run(debug=True)

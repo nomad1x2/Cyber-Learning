@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.header {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.header-description {
+    margin: 4px auto;
+    /*text-align: center;*/
+    /*max-width: 384px;*/
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.column-25 {
+  flex: 1;
+}
+
+.column-75 {
+  flex: 3;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  table-layout: fixed;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: darkred;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.detail-table td:nth-child(1) {
+  width: 30%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.detail-table td:nth-child(2) {
+  width: 70%;
+  text-align: left;
+}
