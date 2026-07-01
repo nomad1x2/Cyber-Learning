@@ -1,5 +1,5 @@
 
-![OSI / TCP-IP Model](../../assets/images/research/osimodel.png)
+![OSI / TCP-IP Model](../assets/images/research/osimodel.png)
  
 # OSI Model
 
