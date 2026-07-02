@@ -28,3 +28,13 @@ Checks if root; flushes/configures interfaces; updates/upgrades; launches firefo
 **Output:**
 
 ![setupscript output](../../../assets/images/scripting/setupscript.png)
+
+### `nmapper.sh`
+
+Prints a few standard nmap commands based on given IP or IP range and optional ports
+- Didn't include UDP scans
+- Input is: subnet or ip separated by spaces -- port/port range separated by comma or spaces
+
+**Output:**
+
+![nmapper output](../../../assets/images/scripting/nmapper.png)
