@@ -48,6 +48,12 @@ Ref:
 |**Impact**|Trying to manipulate, interrupt, or destroy your systems and data|
 
 
+# OWASP Top 10
+
+
+
+
+
 # Threat Intelligence
 
 
