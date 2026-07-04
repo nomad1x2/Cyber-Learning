@@ -54,28 +54,42 @@ sudo iptables -P INPUT ACCEPT
 
 ---
 
-## Block All Traffic Except SSH
+## Block All Traffic Except SSH, HTTP/HTTPS, ICMP
 
 **Always add allow rules before setting DROP policy or you will lock yourself out**
 
 ```bash
-# Allow established/related connections
+# Allow established/related connections first
 sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+
+# Allow loopback
+sudo iptables -A INPUT -i lo -j ACCEPT
 
 # Allow SSH
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
-# Allow loopback
-sudo iptables -A INPUT -i lo -j ACCEPT
+# Allow HTTP
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+# Allow HTTPS
+sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+
+# Allow ICMP
+sudo iptables -A INPUT -p icmp -j ACCEPT
 
 # Now safe to drop everything else
 sudo iptables -P INPUT DROP
 ```
 
-**Verifying that SSH from Kali still works and ping is blocked:**
-- ping 192.168.8.202 -> 100% packet loss
+A lot to unpack here, but here we can see our iptables working:
+1. ping still works from kali to ubuntu
+2. netcat only works if connecting FROM ubuntu (established)
+3. no connection from kali to ubuntu:6969
+4. http server running on ubuntu:80 allows traffic (same concept for 443 just untested)
+5. ssh connections working
 
-![block all except ssh](../../assets/images/linux/iptables1.png)
+![iptables 1](../../assets/images/linux/iptables1.png)
+<!--![block all except ssh](../../assets/images/linux/iptables1.png)-->
 
 ---
 
@@ -151,6 +165,80 @@ sudo ip route add 2.2.2.0/24 dev wg0
 
 ---
 
+## iptable persistence
+
+```bash
+# Make iptable dir
+sudo mkdir -p /etc/iptables
+
+# Save IPv4 rules
+sudo iptables-save -f /etc/iptables/rules.v4
+
+# Create new service:
+sudo vim /etc/systemd/system/iptables-restore.service
+
+[Unit]
+Description=Restore iptables rules at boot
+After=network.target
+ 
+[Service]
+Type=oneshot
+ExecStart=/sbin/iptables-restore /etc/iptables/rules.v4
+# Uncomment below to restore IPv6 rules
+# ExecStartPost=/sbin/ip6tables-restore /etc/iptables/rules.v6
+RemainAfterExit=yes
+ 
+[Install]
+WantedBy=multi-user.target
+
+# Enable and start
+sudo systemctl daemon-reload
+sudo systemctl enable iptables-restore.service
+
+# Start it up
+sudo systemctl start iptables-restore.service
+
+
+User02@ubuntu:~$ sudo systemctl status iptables-restore
+● iptables-restore.service - Restore iptables rules at boot
+     Loaded: loaded (/etc/systemd/system/iptables-restore.service; enabled; preset: enabled)
+     Active: active (exited) since Sat 2026-07-04 13:32:05 CDT; 11s ago
+ Invocation: c05398a3006e4355a5e24091e14cdeb6
+    Process: 4560 ExecStart=/sbin/iptables-restore /etc/iptables/rules.v4 (code=exited, status=0/SUCCESS)
+   Main PID: 4560 (code=exited, status=0/SUCCESS)
+   Mem peak: 1.7M
+        CPU: 11ms
+
+Jul 04 13:32:05 ubuntu systemd[1]: Starting iptables-restore.service - Restore iptables rules at boot...
+Jul 04 13:32:05 ubuntu systemd[1]: Finished iptables-restore.service - Restore iptables rules at boot.
+```
+
+Reboot and verify
+
+Note, could just install `iptables-persistent`
+
+### On RHEL/CentOS/Fedora
+
+Rules added with `--permanent` are stored in /etc/firewalld/ and persist
+
+```bash
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+
+# Example: Allow SSH (port 22) permanently
+sudo firewall-cmd --add-service=ssh --permanent
+ 
+# Example: Allow HTTP (port 80) permanently
+sudo firewall-cmd --add-port=80/tcp --permanent
+
+sudo firewall-cmd --reload
+```
+
+Ref:
+- https://www.thelinuxvault.net/blog/how-to-make-iptables-persistent-after-reboot-on-linux/
+
+---
+
 ## Key Flags
 
 | Flag | Description |
@@ -176,7 +264,7 @@ sudo ip route add 2.2.2.0/24 dev wg0
 
 ## Notes / Gotchas
 - Rules are not persistent by default and are lost on reboot
-	- Use`iptables-save` and `iptables-restore` or install `iptables-persistent` to make them survive reboots
+	- Use`iptables-save` and `iptables-restore`/create a restore service, or install `iptables-persistent` on Ubuntu/debian or `iptables-services` on rhel/centos to make them persistent
   
 - Always add ACCEPT rules before setting DROP policy
 

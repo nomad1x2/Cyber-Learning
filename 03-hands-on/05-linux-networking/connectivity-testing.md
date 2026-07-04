@@ -100,32 +100,10 @@ nmap -Pn -n -sV -O -F -T5 -iL targets
 - 22/tcp SSH -- OpenSSH 10.0p2 (Debian)
 - 80/tcp HTTP -- Apache httpd 2.4.67 (Debian)
 
-## netcat (nc)
-Low-level TCP/UDP tool. Used for port checking, banner grabbing, file transfer, and as a network pipe (reverse shell)
-
-```bash
-# Test if SSH port is open on pi
-nc -zv 192.168.8.50 22
-
-# Test Ubuntu SSH port
-nc -zv 192.168.8.202 22
-```
-
-|Flag|Description|
-|----|----|
-|`-z`|Zero I/O mode; just check if port is open but don't send data|
-|`-v`|Verbose output|
-
-**Output:**
-- `open` - TCP connection succeeded, port is accepting connections
-- `inverse host lookup failed` - no reverse DNS for that IP
-- `Connection refused` - typically indicates the host is reachable but the port is closed
-
 ## Screenshots
 
 ![nmap scans](../../assets/images/linux/nmap.png)
 ![mtr](../../assets/images/linux/mtr.png)
-
 
 ## Notes / Gotchas
 
@@ -134,3 +112,4 @@ nc -zv 192.168.8.202 22
 - traceroute and mtr might show `* * *` but may still be reachable
 - Service/version and OS detection (-sV/O) significantly increases scan time
 - Ping success does not guarantee that application ports are reachable
+- See [netcat](netcat.md) writeup for netcat connectivity writeup
