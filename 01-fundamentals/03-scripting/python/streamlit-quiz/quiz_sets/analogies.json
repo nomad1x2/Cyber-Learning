@@ -1,0 +1,945 @@
+{
+  "questions": {
+    "1": {
+      "question": "Cup is to coffee as bowl is to",
+      "options": {
+        "a.": "dish.",
+        "b.": "soup.",
+        "c.": "spoon.",
+        "d.": "food."
+      },
+      "answer": {
+        "b.": "Coffee goes into a cup and soup goes into a bowl. Choices a and c are incorrect because they are other utensils. The answer is not choice d because the word food is too general."
+      }
+    },
+    "2": {
+      "question": "Exercise is to gym as eating is to",
+      "options": {
+        "a.": "food.",
+        "b.": "dieting.",
+        "c.": "fitness.",
+        "d.": "restaurant."
+      },
+      "answer": {
+        "d.": "A gym is a place where people exercise. A restaurant is a place where people eat. Food (choice a) is not the answer because it is something people eat, not a place or location where they eat. The answer is not choice b or c because neither represents a place where people eat."
+      }
+    },
+    "3": {
+      "question": "Oar is to rowboat as foot is to",
+      "options": {
+        "a.": "running.",
+        "b.": "sneaker.",
+        "c.": "skateboard.",
+        "d.": "jumping."
+      },
+      "answer": {
+        "c.": "An oar puts a rowboat into motion. A foot puts a skateboard into motion. The answer is not choice a because running is not an object that is put into motion by a foot. Sneaker (choice b) is incorrect because it is something worn on a foot. Jumping (choice d) is incorrect because although you do need feet to jump, jumping is not an object that is put into motion by means of a foot."
+      }
+    },
+    "4": {
+      "question": "Window is to pane as book is to",
+      "options": {
+        "a.": "novel.",
+        "b.": "glass.",
+        "c.": "cover.",
+        "d.": "page."
+      },
+      "answer": {
+        "d.": "A window is made up of panes, and a book is made up of pages. The answer is not choice a because a novel is a type of book. The answer is not choice b because glass has no relationship to a book. Choice c is incorrect because a cover is only one part of a book; a book is not made up of covers."
+      }
+    },
+    "5": {
+      "question": "Secretly is to openly as silently is to",
+      "options": {
+        "a.": "scarcely.",
+        "b.": "impolitely.",
+        "c.": "noisily.",
+        "d.": "quietly."
+      },
+      "answer": {
+        "c.": "Secretly is the opposite of openly, and silently is the opposite of noisily. Choices a and b are clearly not the opposites of silently. Choice d means the same thing as silently."
+      }
+    },
+    "6": {
+      "question": "Artist is to painting as senator is to",
+      "options": {
+        "a.": "attorney.",
+        "b.": "law.",
+        "c.": "politician.",
+        "d.": "constituents."
+      },
+      "answer": {
+        "b.": "An artist makes paintings; a senator makes laws. The answer is not choice a because an attorney does not make laws and a senator is not an attorney. Choice c is incorrect because a senator is a politician. Constituents (choice d) is also incorrect because a senator serves his or her constituents."
+      }
+    },
+    "7": {
+      "question": "Play is to actor as concert is to",
+      "options": {
+        "a.": "symphony.",
+        "b.": "musician.",
+        "c.": "piano.",
+        "d.": "percussion."
+      },
+      "answer": {
+        "b.": "An actor performs in a play. A musician performs at a concert. Choices a, c, and d are incorrect because none is people who perform."
+      }
+    },
+    "8": {
+      "question": "Careful is to cautious as boastful is to",
+      "options": {
+        "a.": "arrogant.",
+        "b.": "humble.",
+        "c.": "joyful.",
+        "d.": "suspicious."
+      },
+      "answer": {
+        "a.": "Careful and cautious are synonyms (they mean the same thing). Boastful and arrogant are also synonyms. The answer is not choice b because humble means the opposite of boastful. The answer is not choice c or d because neither means the same as boastful."
+      }
+    },
+    "9": {
+      "question": "Pride is to lion as school is to",
+      "options": {
+        "a.": "teacher.",
+        "b.": "student.",
+        "c.": "self-respect.",
+        "d.": "fish."
+      },
+      "answer": {
+        "d.": "A group of lions is called a pride. A group of fish swim in a school. Teacher (choice a) and student (choice b) refer to another meaning of the word school. The answer is not choice c because self-respect has no obvious relationship to this particular meaning of school."
+      }
+    },
+    "10": {
+      "question": "Guide is to direct as reduce is to",
+      "options": {
+        "a.": "decrease.",
+        "b.": "maintain.",
+        "c.": "increase.",
+        "d.": "preserve.  "
+      },
+      "answer": {
+        "a.": "Guide and direct are synonyms, and reduce and decrease are synonyms. The answer is not choice b or d because neither means the same as reduce. Choice c is incorrect because increase is the opposite of reduce."
+      }
+    },
+    "11": {
+      "question": "Yard is to inch as quart is to",
+      "options": {
+        "a.": "gallon.",
+        "b.": "ounce.",
+        "c.": "milk.",
+        "d.": "liquid."
+      },
+      "answer": {
+        "b.": "A yard is a larger measure than an inch (a yard contains 36 inches). A quart is a larger measure than an ounce (a quart contains 32 ounces). Gallon (choice a) is incorrect because it is larger than a quart. Choices c and d are incorrect because they are not units of measurement."
+      }
+    },
+    "12": {
+      "question": "Reptile is to lizard as flower is to",
+      "options": {
+        "a.": "petal.",
+        "b.": "stem.",
+        "c.": "daisy.",
+        "d.": "alligator."
+      },
+      "answer": {
+        "c.": "A lizard is a type of reptile; a daisy is a type of flower. Choices a and b are incorrect because a petal and a stem are parts of a flower, not types of flowers. Choice d is incorrect because an alligator is another type of reptile, not a type of flower."
+      }
+    },
+    "13": {
+      "question": "Elated is to despondent as enlightened is to",
+      "options": {
+        "a.": "aware.",
+        "b.": "ignorant.",
+        "c.": "miserable.",
+        "d.": "tolerant."
+      },
+      "answer": {
+        "b.": "Elated is the opposite of despondent; enlightened is the opposite of ignorant."
+      }
+    },
+    "14": {
+      "question": "Marathon is to race as hibernation is to",
+      "options": {
+        "a.": "winter.",
+        "b.": "bear.",
+        "c.": "dream.",
+        "d.": "sleep."
+      },
+      "answer": {
+        "d.": "A marathon is a long race and hibernation is a lengthy period of sleep. The answer is not choice a or b because even though a bear and winter are related to hibernation, neither completes the analogy. Choice c is incorrect because sleep and dream are not synonymous."
+      }
+    },
+    "15": {
+      "question": "Embarrassed is to humiliated as frightened is to",
+      "options": {
+        "a.": "terrified.",
+        "b.": "agitated.",
+        "c.": "courageous.",
+        "d.": "reckless."
+      },
+      "answer": {
+        "a.": "If someone has been humiliated, they have been greatly embarrassed. If someone is terrified, they are extremely frightened. The answer is not choice b because an agitated person is not necessarily frightened. Choices c and d are incorrect because neither word expresses a state of being frightened."
+      }
+    },
+    "16": {
+      "question": "Odometer is to mileage as compass is to",
+      "options": {
+        "a.": "speed.",
+        "b.": "hiking.",
+        "c.": "needle.",
+        "d.": "direction."
+      },
+      "answer": {
+        "d.": "An odometer is an instrument used to measure mileage. A compass is an instrument used to determine direction. Choices a, b, and c are incorrect because none is an instrument."
+      }
+    },
+    "17": {
+      "question": "Optimist is to cheerful as pessimist is to",
+      "options": {
+        "a.": "gloomy.",
+        "b.": "mean.",
+        "c.": "petty.",
+        "d.": "helpful."
+      },
+      "answer": {
+        "a.": "An optimist is a person whose outlook is cheerful. A pessimist is a person whose outlook is gloomy. The answer is not choice b because a pessimist does not have to be mean. Choices c and d are incorrect because neither adjective describes the outlook of a pessimist."
+      }
+    },
+    "18": {
+      "question": "Sponge is to porous as rubber is to",
+      "options": {
+        "a.": "massive.",
+        "b.": "solid.",
+        "c.": "elastic.",
+        "d.": "inflexible."
+      },
+      "answer": {
+        "c.": "A sponge is a porous material. Rubber is an elastic material. Choice a is incorrect because rubber would not generally be referred to as massive. The answer is not choice b because even though rubber is a solid, its most noticeable characteristic is its elasticity. Choice d is incorrect because rubber has flexibility."
+      }
+    },
+    "19": {
+      "question": "Candid is to indirect as honest is to",
+      "options": {
+        "a.": "frank.",
+        "b.": "wicked.",
+        "c.": "truthful.",
+        "d.": "untruthful."
+      },
+      "answer": {
+        "d.": "Candid and indirect refer to opposing traits. Honest and untruthful refer to opposing traits. The answer is not choice a because frank means the same thing as candid. Wicked (choice b) is incorrect because even though it refers to a negative trait, it does not mean the opposite of honest. Choice c is incorrect because truthful and honest mean the same thing."
+      }
+    },
+    "20": {
+      "question": "Pen is to poet as needle is to",
+      "options": {
+        "a.": "thread.",
+        "b.": "button.",
+        "c.": "sewing.",
+        "d.": "tailor.  "
+      },
+      "answer": {
+        "d.": "A pen is a tool used by a poet. A needle is a tool used by a tailor. The answer is not choice a, b, or c because none is a person and therefore cannot complete the analogy."
+      }
+    },
+    "61": {
+      "question": "ant fly bee hamster squirrel _______",
+      "options": {
+        "a.": "spider",
+        "b.": "mouse",
+        "c.": "rodent",
+        "d.": "cat"
+      },
+      "answer": {
+        "b.": "The three above the line are all insects. The hamster and squirrel are rodents, so the correct choice is b because the mouse is also a rodent. The other three choices are not rodents."
+      }
+    },
+    "62": {
+      "question": "carpenter saw nails pediatrician stethoscope _______",
+      "options": {
+        "a.": "thermometer",
+        "b.": "baby",
+        "c.": "doctor",
+        "d.": "illness"
+      },
+      "answer": {
+        "a.": "In the relationship above the line, the saw and the nails are tools a carpenter uses. In the relationship below the line, the stethoscope and thermometer are tools a pediatrician uses."
+      }
+    },
+    "63": {
+      "question": "table wood oak shirt cloth _______",
+      "options": {
+        "a.": "sewing",
+        "b.": "dress",
+        "c.": "cotton",
+        "d.": "tree"
+      },
+      "answer": {
+        "c.": "A table made of wood could come from an oak tree. A shirt made of cloth could come from a cotton plant. Choice a looks like a reasonable answer if you apply the same sentence: \"A shirt made of cloth could come from sewing.\" But this is not the same relationship as the one above the line. The oak and the cotton are both materials used to make the table and the shirt."
+      }
+    },
+    "64": {
+      "question": "rule command dictate doze sleep _______",
+      "options": {
+        "a.": "snore",
+        "b.": "govern",
+        "c.": "awaken",
+        "d.": "hibernate"
+      },
+      "answer": {
+        "d.": "The words above the line show a continuum: Command is more extreme than rule, and dictate is more extreme than command. Below the line, the continuum is as follows: Sleep is more than doze, and hibernate is more than sleep. The other choices are not related in the same way."
+      }
+    },
+    "65": {
+      "question": "meal banquet feast shelter palace _______",
+      "options": {
+        "a.": "mansion",
+        "b.": "hallway",
+        "c.": "protection",
+        "d.": "haven"
+      },
+      "answer": {
+        "a.": "A banquet and a feast are both large meals; a palace and a mansion are both large places of shelter."
+      }
+    },
+    "66": {
+      "question": "fence wall boundary path alley _______",
+      "options": {
+        "a.": "ramp",
+        "b.": "passageway",
+        "c.": "airfield",
+        "d.": "pedestrian"
+      },
+      "answer": {
+        "b.": "A fence and a wall mark a boundary. A path and an alley mark a passageway."
+      }
+    },
+    "67": {
+      "question": "palette easel brush textbook lesson plan _______",
+      "options": {
+        "a.": "artist",
+        "b.": "teacher",
+        "c.": "report card",
+        "d.": "paint"
+      },
+      "answer": {
+        "c.": "The objects above the line are all things used by an artist. The objects below the line are all things used by a teacher."
+      }
+    },
+    "68": {
+      "question": "snow mountain ski warmth lake _______",
+      "options": {
+        "a.": "sand",
+        "b.": "swim",
+        "c.": "sunburn",
+        "d.": "vacation"
+      },
+      "answer": {
+        "b.": "The relationship above the line is that snow on a mountain creates conditions for skiing. Below the line, the relationship is that warmth at a lake creates conditions for swimming."
+      }
+    },
+    "69": {
+      "question": "candle lamp floodlight hut cottage _______",
+      "options": {
+        "a.": "tent",
+        "b.": "city",
+        "c.": "dwelling",
+        "d.": "house  "
+      },
+      "answer": {
+        "d.": "Above the line, the relationship shows a progression of sources of light. The relationship below the line shows a progression of types of housing, from smallest to largest. Choice a is incorrect because a tent is smaller than a house. Choices b and c are wrong because they are not part of the progression."
+      }
+    },
+    "70": {
+      "question": "apples fruit supermarket novel book _______",
+      "options": {
+        "a.": "bookstore",
+        "b.": "magazine",
+        "c.": "vegetable",
+        "d.": "shopping"
+      },
+      "answer": {
+        "a.": "The relationship above the line is as follows; apples are a kind of fruit; fruit is sold in a supermarket. Below the line, the relationship is: a novel is a kind of book; books are sold in a bookstore."
+      }
+    },
+    "71": {
+      "question": "tadpole frog amphibian lamb sheep _______",
+      "options": {
+        "a.": "animal",
+        "b.": "wool",
+        "c.": "farm",
+        "d.": "mammal"
+      },
+      "answer": {
+        "d.": "The tadpole is a young frog; frogs are amphibians. The lamb is a young sheep; sheep are mammals. Animal (choice a) is incorrect because it is too large a grouping: Animals include insects, birds, mammals, reptiles, and amphibians. Choices b and c are incorrect because they are not part of the progression."
+      }
+    },
+    "72": {
+      "question": "walk skip run toss pitch _______",
+      "options": {
+        "a.": "swerve",
+        "b.": "hurl",
+        "c.": "jump",
+        "d.": "dance"
+      },
+      "answer": {
+        "b.": "Walk, skip, and run represent a continuum of movement: Skipping is faster than walking; running is faster than skipping. Below the line, the continuum is about throwing: Pitch is faster than toss; hurl is faster than pitch."
+      }
+    },
+    "73": {
+      "question": "honeybee angel bat kangaroo rabbit _______",
+      "options": {
+        "a.": "mermaid",
+        "b.": "possum",
+        "c.": "grasshopper",
+        "d.": "sprinter"
+      },
+      "answer": {
+        "c.": "The honeybee, angel, and bat all have wings; they are capable of flying. The kangaroo, rabbit, and grasshopper are all capable of hopping."
+      }
+    },
+    "74": {
+      "question": "daisy flower plant bungalow house _______",
+      "options": {
+        "a.": "building",
+        "b.": "cottage",
+        "c.": "apartment",
+        "d.": "city  "
+      },
+      "answer": {
+        "a.": "Above the line, the relationship is as follows: A daisy is a type of flower, and a flower is a type of plant. Below the line, the relationship is as follows: A bungalow is a type of house, and a house is a type of building."
+      }
+    },
+    "75": {
+      "question": "PETAL : FLOWER",
+      "options": {
+        "a.": "salt : pepper",
+        "b.": "tire : bicycle",
+        "c.": "base : ball",
+        "d.": "sandals : shoes",
+        "e.": "puppy : dog"
+      },
+      "answer": {
+        "b.": "A petal is a part of a flower; a tire is a part of a bicycle."
+      }
+    },
+    "76": {
+      "question": "BRISTLE : BRUSH",
+      "options": {
+        "a.": "arm : leg",
+        "b.": "stage : curtain",
+        "c.": "recline : chair",
+        "d.": "key : piano",
+        "e.": "art : sculpture"
+      },
+      "answer": {
+        "d.": "A bristle is a part of a brush; a key is a part of a piano."
+      }
+    },
+    "77": {
+      "question": "FISH : SCHOOL",
+      "options": {
+        "a.": "wolf : pack",
+        "b.": "elephant : jungle",
+        "c.": "beagle : clan",
+        "d.": "herd : peacock",
+        "e.": "cow : farm"
+      },
+      "answer": {
+        "a.": "A group of fish is a school; a group of wolves is a pack."
+      }
+    },
+    "78": {
+      "question": "ODOMETER : DISTANCE",
+      "options": {
+        "a.": "scale : weight",
+        "b.": "length : width",
+        "c.": "inch : foot",
+        "d.": "mileage : speed",
+        "e.": "area : size"
+      },
+      "answer": {
+        "a.": "An odometer measures distance; a scale measures weight."
+      }
+    },
+    "79": {
+      "question": "SIAMESE : CAT",
+      "options": {
+        "a.": "type : breed",
+        "b.": "dog : puppy",
+        "c.": "mark : spot",
+        "d.": "romaine : lettuce",
+        "e.": "collar : leash"
+      },
+      "answer": {
+        "d.": "Siamese is a kind of cat; romaine is a kind of lettuce."
+      }
+    },
+    "80": {
+      "question": "PEDAL : BICYCLE",
+      "options": {
+        "a.": "inch : yardstick",
+        "b.": "walk : skip",
+        "c.": "tire : automobile",
+        "d.": "buckle : belt",
+        "e.": "oar : canoe"
+      },
+      "answer": {
+        "e.": "A pedal propels a bicycle; an oar propels a canoe."
+      }
+    },
+    "81": {
+      "question": "PULSATE : THROB",
+      "options": {
+        "a.": "walk : run",
+        "b.": "tired : sleep",
+        "c.": "examine : scrutinize",
+        "d.": "ballet : dancer",
+        "e.": "find : lose"
+      },
+      "answer": {
+        "c.": "Pulsate and throb are synonyms, as are examine and scrutinize."
+      }
+    },
+    "82": {
+      "question": "ELEPHANT : PACHYDERM",
+      "options": {
+        "a.": "mantis : rodent",
+        "b.": "poodle : feline",
+        "c.": "kangaroo : marsupial",
+        "d.": "zebra : horse",
+        "e.": "tuna : mollusk"
+      },
+      "answer": {
+        "c.": "An elephant is a pachyderm; a kangaroo is a marsupial."
+      }
+    },
+    "83": {
+      "question": "DEPRESSED : SAD",
+      "options": {
+        "a.": "neat : considerate",
+        "b.": "towering : cringing",
+        "c.": "rapid : plodding",
+        "d.": "progressive : regressive",
+        "e.": "exhausted : tired"
+      },
+      "answer": {
+        "e.": "Depressed is an intensification of sad; exhausted is an intensification of tired."
+      }
+    },
+    "84": {
+      "question": "PSYCHOLOGIST : NEUROSIS",
+      "options": {
+        "a.": "ophthalmologist : cataract",
+        "b.": "dermatologist : fracture",
+        "c.": "infant : pediatrician",
+        "d.": "rash : orthopedist",
+        "e.": "oncologist : measles  "
+      },
+      "answer": {
+        "a.": "A psychologist treats a neurosis; an ophthalmologist treats a cataract."
+      }
+    },
+    "85": {
+      "question": "BINDING : BOOK",
+      "options": {
+        "a.": "criminal : gang",
+        "b.": "display : museum",
+        "c.": "artist : carpenter",
+        "d.": "nail : hammer",
+        "e.": "frame : picture"
+      },
+      "answer": {
+        "e.": "A binding surrounds a book; a frame surrounds a picture."
+      }
+    },
+    "86": {
+      "question": "EXPLORE : DISCOVER",
+      "options": {
+        "a.": "read : skim",
+        "b.": "research : learn",
+        "c.": "write : print",
+        "d.": "think : relate",
+        "e.": "sleep : wake"
+      },
+      "answer": {
+        "b.": "One explores to discover; one researches to learn."
+      }
+    },
+    "87": {
+      "question": "COTTON : BALE",
+      "options": {
+        "a.": "butter : churn",
+        "b.": "wine : ferment",
+        "c.": "grain : shock",
+        "d.": "curd : cheese",
+        "e.": "beef : steak"
+      },
+      "answer": {
+        "c.": "Upon harvesting, cotton is gathered into bales; grain is gathered into shocks."
+      }
+    },
+    "88": {
+      "question": "DIVISION : SECTION",
+      "options": {
+        "a.": "layer : tier",
+        "b.": "tether : bundle",
+        "c.": "chapter : verse",
+        "d.": "riser : stage",
+        "e.": "dais : speaker"
+      },
+      "answer": {
+        "a.": "Division and section are synonyms; layer and tier are synonyms."
+      }
+    },
+    "89": {
+      "question": "PASTORAL : RURAL",
+      "options": {
+        "a.": "metropolitan : urban",
+        "b.": "harvest : autumn",
+        "c.": "agrarian : benevolent",
+        "d.": "sleepy : nocturnal",
+        "e.": "wild : agricultural"
+      },
+      "answer": {
+        "a.": "Pastoral describes rural areas; metropolitan describes urban areas."
+      }
+    },
+    "90": {
+      "question": "WAITRESS : RESTAURANT",
+      "options": {
+        "a.": "doctor : diagnosis",
+        "b.": "actor : role",
+        "c.": "driver : truck",
+        "d.": "teacher : school",
+        "e.": "author : book"
+      },
+      "answer": {
+        "d.": "A waitress works in a restaurant; a teacher works in a school."
+      }
+    },
+    "91": {
+      "question": "FINCH : BIRD",
+      "options": {
+        "a.": "frog : toad",
+        "b.": "elephant : reptile",
+        "c.": "Dalmatian : dog",
+        "d.": "collie : marsupial",
+        "e.": "ant : ladybug"
+      },
+      "answer": {
+        "c.": "A finch is a type of bird; a Dalmatian is a type of dog."
+      }
+    },
+    "92": {
+      "question": "RAIN : DRIZZLE",
+      "options": {
+        "a.": "swim : dive",
+        "b.": "hop : shuffle",
+        "c.": "juggle : bounce",
+        "d.": "walk : run",
+        "e.": "run : jog"
+      },
+      "answer": {
+        "e.": "To drizzle is to rain slowly; to jog is to run slowly."
+      }
+    },
+    "93": {
+      "question": "SKEIN : YARN",
+      "options": {
+        "a.": "squeeze : lemon",
+        "b.": "fire : coal",
+        "c.": "ream : paper",
+        "d.": "tree : lumber",
+        "e.": "plow : acre"
+      },
+      "answer": {
+        "c.": "A skein is a quantity of yarn; a ream is a quantity of paper."
+      }
+    },
+    "94": {
+      "question": "TAILOR : SUIT",
+      "options": {
+        "a.": "scheme : agent",
+        "b.": "edit : manuscript",
+        "c.": "revise : writer",
+        "d.": "mention : opinion",
+        "e.": "implode : building  "
+      },
+      "answer": {
+        "b.": "To tailor a suit is to alter it; to edit a manuscript is to alter it."
+      }
+    },
+    "95": {
+      "question": "CONDUCTOR : ORCHESTRA",
+      "options": {
+        "a.": "jockey : mount",
+        "b.": "thrasher : hay",
+        "c.": "driver : tractor",
+        "d.": "skipper : crew",
+        "e.": "painter : house"
+      },
+      "answer": {
+        "d.": "A conductor leads an orchestra; a skipper leads a crew."
+      }
+    },
+    "96": {
+      "question": "JAUNDICE : LIVER",
+      "options": {
+        "a.": "rash : skin",
+        "b.": "dialysis : kidney",
+        "c.": "smog : lung",
+        "d.": "valentine : heart",
+        "e.": "imagination : brain"
+      },
+      "answer": {
+        "a.": "Jaundice is an indication of a liver problem; rash is an indication of a skin problem."
+      }
+    },
+    "97": {
+      "question": "COBBLER : SHOE",
+      "options": {
+        "a.": "jockey : horse",
+        "b.": "contractor : building",
+        "c.": "mason : stone",
+        "d.": "cowboy : boot",
+        "e.": "potter : paint"
+      },
+      "answer": {
+        "b.": "A cobbler makes and repairs shoes; a contractor builds and repairs buildings."
+      }
+    },
+    "98": {
+      "question": "PHOBIC : FEARFUL",
+      "options": {
+        "a.": "finicky : thoughtful",
+        "b.": "cautious : emotional",
+        "c.": "envious : desiring",
+        "d.": "shy : familiar",
+        "e.": "asinine : silly"
+      },
+      "answer": {
+        "e.": "To be phobic is to be extremely fearful; to be asinine is to be extremely silly."
+      }
+    },
+    "99": {
+      "question": "INTEREST : OBSESSION",
+      "options": {
+        "a.": "mood : feeling",
+        "b.": "weeping : sadness",
+        "c.": "dream : fantasy",
+        "d.": "plan : negation",
+        "e.": "highlight : indication"
+      },
+      "answer": {
+        "c.": "Obsession is a greater degree of interest; fantasy is a greater degree of dream."
+      }
+    },
+    "100": {
+      "question": "MONK : DEVOTION",
+      "options": {
+        "a.": "maniac : pacifism",
+        "b.": "explorer : contentment",
+        "c.": "visionary : complacency",
+        "d.": "rover : wanderlust",
+        "e.": "philistine : culture"
+      },
+      "answer": {
+        "d.": "Devotion is characteristic of a monk; wanderlust is characteristic of a rover."
+      }
+    },
+    "101": {
+      "question": "SLAPSTICK : LAUGHTER",
+      "options": {
+        "a.": "fallacy : dismay",
+        "b.": "genre : mystery",
+        "c.": "satire : anger",
+        "d.": "mimicry : tears",
+        "e.": "horror : fear"
+      },
+      "answer": {
+        "e.": "Slapstick results in laughter; horror results in fear."
+      }
+    },
+    "102": {
+      "question": "VERVE : ENTHUSIASM",
+      "options": {
+        "a.": "loyalty : duplicity",
+        "b.": "devotion : reverence",
+        "c.": "intensity : color",
+        "d.": "eminence : anonymity",
+        "e.": "generosity : elation"
+      },
+      "answer": {
+        "b.": "Verve and enthusiasm are synonyms; devotion and reverence are synonyms."
+      }
+    },
+    "103": {
+      "question": "SOUND : CACOPHONY",
+      "options": {
+        "a.": "taste : style",
+        "b.": "touch : massage",
+        "c.": "smell : stench",
+        "d.": "sight : panorama",
+        "e.": "speech : oration"
+      },
+      "answer": {
+        "c.": "A cacophony is an unpleasant sound; a stench is an unpleasant smell."
+      }
+    },
+    "104": {
+      "question": "CONVICTION : INCARCERATION",
+      "options": {
+        "a.": "reduction : diminution",
+        "b.": "induction : amelioration",
+        "c.": "radicalization : estimation",
+        "d.": "marginalization : intimidation",
+        "e.": "proliferation : alliteration  "
+      },
+      "answer": {
+        "a.": "A conviction results in incarceration; a reduction results in diminution."
+      }
+    },
+    "105": {
+      "question": "DELTOID : MUSCLE",
+      "options": {
+        "a.": "radius : bone",
+        "b.": "brain : nerve",
+        "c.": "tissue : organ",
+        "d.": "blood : vein",
+        "e.": "scalpel : incision"
+      },
+      "answer": {
+        "a.": "The deltoid is a muscle; the radius is a bone."
+      }
+    },
+    "106": {
+      "question": "UMBRAGE : OFFENSE",
+      "options": {
+        "a.": "confusion : penance",
+        "b.": "infinity : meaning",
+        "c.": "decorum : decoration",
+        "d.": "elation : jubilance",
+        "e.": "outrage : consideration"
+      },
+      "answer": {
+        "d.": "Umbrage and offense are synonyms; elation and jubilance are synonyms."
+      }
+    },
+    "107": {
+      "question": "PROFESSOR : ERUDITE",
+      "options": {
+        "a.": "aviator : licensed",
+        "b.": "inventor : imaginative",
+        "c.": "procrastinator : conscientious",
+        "d.": "overseer : wealthy",
+        "e.": "moderator : vicious"
+      },
+      "answer": {
+        "b.": "Being erudite is a trait of a professor; being imaginative is a trait of an inventor."
+      }
+    },
+    "108": {
+      "question": "DEPENDABLE : CAPRICIOUS",
+      "options": {
+        "a.": "fallible : cantankerous",
+        "b.": "erasable : obtuse",
+        "c.": "malleable : limpid",
+        "d.": "capable : inept",
+        "e.": "incorrigible : guilty"
+      },
+      "answer": {
+        "d.": "Dependable and capricious are antonyms; capable and inept are antonyms."
+      }
+    },
+    "109": {
+      "question": "FROND : PALM",
+      "options": {
+        "a.": "quill : porcupine",
+        "b.": "blade : evergreen",
+        "c.": "scale : wallaby",
+        "d.": "tusk : alligator",
+        "e.": "blade : fern"
+      },
+      "answer": {
+        "a.": "A palm (tree) has fronds; a porcupine has quills."
+      }
+    },
+    "110": {
+      "question": "METAPHOR : SYMBOL",
+      "options": {
+        "a.": "pentameter : poem",
+        "b.": "rhythm : melody",
+        "c.": "nuance : song",
+        "d.": "slang : usage",
+        "e.": "analogy : comparison"
+      },
+      "answer": {
+        "e.": "A metaphor is a symbol; an analogy is a comparison."
+      }
+    },
+    "111": {
+      "question": "DIRGE : FUNERAL",
+      "options": {
+        "a.": "chain : letter",
+        "b.": "bell : church",
+        "c.": "telephone : call",
+        "d.": "jingle : commercial",
+        "e.": "hymn : concerto"
+      },
+      "answer": {
+        "d.": "A dirge is a song used at a funeral; a jingle is a song used in a commercial."
+      }
+    },
+    "112": {
+      "question": "FERAL : TAME",
+      "options": {
+        "a.": "rancid : rational",
+        "b.": "repetitive : recurrent",
+        "c.": "nettlesome : annoying",
+        "d.": "repentant : honorable",
+        "e.": "ephemeral : immortal"
+      },
+      "answer": {
+        "e.": "Feral and tame are antonyms; ephemeral and immortal are antonyms."
+      }
+    },
+    "113": {
+      "question": "SPY : CLANDESTINE",
+      "options": {
+        "a.": "accountant : meticulous",
+        "b.": "furrier : rambunctious",
+        "c.": "lawyer : ironic",
+        "d.": "shepherd : garrulous",
+        "e.": "astronaut : opulent"
+      },
+      "answer": {
+        "a.": "A spy acts in a clandestine manner; an accountant acts in a meticulous manner."
+      }
+    },
+    "114": {
+      "question": "DOMINANCE : HEGEMONY",
+      "options": {
+        "a.": "romance : sympathy",
+        "b.": "furtherance : melancholy",
+        "c.": "independence : autonomy",
+        "d.": "tolerance : philanthropy",
+        "e.": "recompense : hilarity"
+      },
+      "answer": {
+        "c.": "Hegemony means dominance; autonomy means independence."
+      }
+    },
+    "115": {
+      "question": "AERIE : EAGLE",
+      "options": {
+        "a.": "capital : government",
+        "b.": "bridge : architect",
+        "c.": "unit : apartment",
+        "d.": "kennel : veterinarian",
+        "e.": "house : person  "
+      },
+      "answer": {
+        "e.": "An aerie is where an eagle lives; a house is where a person lives."
+      }
+    }
+  }
+}

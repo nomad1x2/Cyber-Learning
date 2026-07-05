@@ -1,0 +1,944 @@
+{
+  "questions": {
+    "1": {
+      "question": "Look at this series: 2, 4, 6, 8, 10, . . . What number should come next?",
+      "options": {
+        "a.": "11",
+        "b.": "12",
+        "c.": "13",
+        "d.": "14"
+      },
+      "answer": {
+        "b.": "This is a simple addition series. Each number increases by 2."
+      }
+    },
+    "2": {
+      "question": "Look at this series: 58, 52, 46, 40, 34, . . . What number should come next?",
+      "options": {
+        "a.": "26",
+        "b.": "28",
+        "c.": "30",
+        "d.": "32"
+      },
+      "answer": {
+        "b.": "This is a simple subtraction series. Each number is 6 less than the previous number."
+      }
+    },
+    "3": {
+      "question": "Look at this series: 40, 40, 47, 47, 54, . . . What number should come next?",
+      "options": {
+        "a.": "40",
+        "b.": "44",
+        "c.": "54",
+        "d.": "61"
+      },
+      "answer": {
+        "c.": "This is an alternation with repetition series in which each number repeats itself and then increases by 7."
+      }
+    },
+    "4": {
+      "question": "Look at this series: 544, 509, 474, 439, . . . What number should come next?",
+      "options": {
+        "a.": "404",
+        "b.": "414",
+        "c.": "420",
+        "d.": "445"
+      },
+      "answer": {
+        "a.": "This is a simple subtraction series. Each number is 35 less than the previous number."
+      }
+    },
+    "5": {
+      "question": "Look at this series: 201, 202, 204, 207, . . . What number should come next?",
+      "options": {
+        "a.": "205",
+        "b.": "208",
+        "c.": "210",
+        "d.": "211"
+      },
+      "answer": {
+        "d.": "In this addition series, 1 is added to the first number; 2 is added to the second number; 3 is added to the third number; and so forth."
+      }
+    },
+    "6": {
+      "question": "Look at this series: 8, 22, 8, 28, 8, . . . What number should come next?",
+      "options": {
+        "a.": "9",
+        "b.": "29",
+        "c.": "32",
+        "d.": "34"
+      },
+      "answer": {
+        "d.": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+      }
+    },
+    "7": {
+      "question": "Look at this series: 80, 10, 70, 15, 60, . . . What number should come next?",
+      "options": {
+        "a.": "20",
+        "b.": "25",
+        "c.": "30",
+        "d.": "50"
+      },
+      "answer": {
+        "a.": "This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next."
+      }
+    },
+    "8": {
+      "question": "Look at this series: 36, 34, 30, 28, 24, . . . What number should come next?",
+      "options": {
+        "a.": "20",
+        "b.": "22",
+        "c.": "23",
+        "d.": "26"
+      },
+      "answer": {
+        "b.": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+      }
+    },
+    "9": {
+      "question": "Look at this series: 22, 21, 23, 22, 24, 23, . . . What number should come next?",
+      "options": {
+        "a.": "22",
+        "b.": "24",
+        "c.": "25",
+        "d.": "26  "
+      },
+      "answer": {
+        "c.": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+      }
+    },
+    "10": {
+      "question": "Look at this series: 3, 4, 7, 8, 11, 12, . . . What number should come next?",
+      "options": {
+        "a.": "7",
+        "b.": "10",
+        "c.": "14",
+        "d.": "15"
+      },
+      "answer": {
+        "d.": "This alternating addition series begins with"
+      }
+    },
+    "11": {
+      "question": "Look at this series: 31, 29, 24, 22, 17, . . . What number should come next?",
+      "options": {
+        "a.": "15",
+        "b.": "14",
+        "c.": "13",
+        "d.": "12"
+      },
+      "answer": {
+        "a.": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+      }
+    },
+    "12": {
+      "question": "Look at this series: 21, 9, 21, 11, 21, 13, . . . What number should come next?",
+      "options": {
+        "a.": "14",
+        "b.": "15",
+        "c.": "21",
+        "d.": "23"
+      },
+      "answer": {
+        "c.": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+      }
+    },
+    "13": {
+      "question": "Look at this series: 53, 53, 40, 40, 27, 27, . . . What number should come next?",
+      "options": {
+        "a.": "12",
+        "b.": "14",
+        "c.": "27",
+        "d.": "53"
+      },
+      "answer": {
+        "b.": "In this series, each number is repeated, then"
+      }
+    },
+    "14": {
+      "question": "Look at this series: 2, 6, 18, 54, . . . What number should come next?",
+      "options": {
+        "a.": "108",
+        "b.": "148",
+        "c.": "162",
+        "d.": "216"
+      },
+      "answer": {
+        "c.": "This is a simple multiplication series. Each number is 3 times more than the previous number."
+      }
+    },
+    "15": {
+      "question": "Look at this series: 1,000, 200, 40, . . . What number should come next?",
+      "options": {
+        "a.": "8",
+        "b.": "10",
+        "c.": "15",
+        "d.": "20"
+      },
+      "answer": {
+        "a.": "This is a simple division series. Each number is divided by 5. Answers"
+      }
+    },
+    "16": {
+      "question": "Look at this series: 7, 10, 8, 11, 9, 12, . . . What number should come next?",
+      "options": {
+        "a.": "7",
+        "b.": "10",
+        "c.": "12",
+        "d.": "13"
+      },
+      "answer": {
+        "b.": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+      }
+    },
+    "17": {
+      "question": "Look at this series: 14, 28, 20, 40, 32, 64, . . . What number should come next?",
+      "options": {
+        "a.": "52",
+        "b.": "56",
+        "c.": "96",
+        "d.": "128"
+      },
+      "answer": {
+        "b.": "This is an alternating multiplication and subtracting series: First, multiply by 2 and then subtract 8."
+      }
+    },
+    "18": {
+      "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, . . . What number should come next?",
+      "options": {
+        "a.": "4.2",
+        "b.": "4.4",
+        "c.": "4.7",
+        "d.": "5.1"
+      },
+      "answer": {
+        "c.": "In this simple addition series, each number increases by 0.8."
+      }
+    },
+    "19": {
+      "question": "Look at this series: 5.2, 4.8, 4.4, 4, . . . What number should come next?",
+      "options": {
+        "a.": "3",
+        "b.": "3.3",
+        "c.": "3.5",
+        "d.": "3.6"
+      },
+      "answer": {
+        "d.": "In this simple subtraction series, each number decreases by 0.4."
+      }
+    },
+    "20": {
+      "question": "Look at this series: 2, 1, 1/2, 1/4, . . . What number should come next?",
+      "options": {
+        "a.": "1/3",
+        "b.": "1/8",
+        "c.": "2/8",
+        "d.": "1/16"
+      },
+      "answer": {
+        "b.": "This is a simple division series; each number is one-half of the previous number."
+      }
+    },
+    "21": {
+      "question": "84 78 72 66 60 54 48",
+      "options": {
+        "a.": "44 34",
+        "b.": "42 36",
+        "c.": "42 32",
+        "d.": "40 34",
+        "e.": "38 32"
+      },
+      "answer": {
+        "b.": "In this simple subtraction series, each number is 6 less than the previous number."
+      }
+    },
+    "22": {
+      "question": "3 8 13 18 23 28 33",
+      "options": {
+        "a.": "39 44",
+        "b.": "38 44",
+        "c.": "38 43",
+        "d.": "37 42",
+        "e.": "33 38"
+      },
+      "answer": {
+        "c.": "In this simple addition series, each number is 5 greater than the previous number."
+      }
+    },
+    "23": {
+      "question": "20 20 17 17 14 14 11",
+      "options": {
+        "a.": "8 8",
+        "b.": "11 11",
+        "c.": "11 14",
+        "d.": "8 9",
+        "e.": "11 8"
+      },
+      "answer": {
+        "e.": "This is a simple subtraction with repetition series. It begins with 20, which is repeated, then 3 is subtracted, resulting in 17, which is repeated, and so on."
+      }
+    },
+    "24": {
+      "question": "18 21 25 18 29 33 18",
+      "options": {
+        "a.": "43 18",
+        "b.": "41 44",
+        "c.": "37 18",
+        "d.": "37 41",
+        "e.": "38 41"
+      },
+      "answer": {
+        "d.": "This is a simple addition series with a random number, 18, interpolated as every third number. In the series, 4 is added to each number except 18, to arrive at the next number."
+      }
+    },
+    "25": {
+      "question": "9 11 33 13 15 33 17",
+      "options": {
+        "a.": "19 33",
+        "b.": "33 35",
+        "c.": "33 19",
+        "d.": "15 33",
+        "e.": "19 21"
+      },
+      "answer": {
+        "a.": "In this alternating repetition series, a random number, 33, is interpolated every third number into a simple addition series, in which each number increases by 2."
+      }
+    },
+    "26": {
+      "question": "2 8 14 20 26 32 38",
+      "options": {
+        "a.": "2 46",
+        "b.": "44 50",
+        "c.": "42 48",
+        "d.": "40 42",
+        "e.": "32 26"
+      },
+      "answer": {
+        "b.": "This is a simple addition series, which begins with 2 and adds 6."
+      }
+    },
+    "27": {
+      "question": "28 25 5 21 18 5 14",
+      "options": {
+        "a.": "11 5",
+        "b.": "10 7",
+        "c.": "11 8",
+        "d.": "5 10",
+        "e.": "10 5"
+      },
+      "answer": {
+        "a.": "This is an alternating subtraction series with the interpolation of a random number, 5, as every third number. In the subtraction series,"
+      }
+    },
+    "28": {
+      "question": "9 12 11 14 13 16 15",
+      "options": {
+        "a.": "14 13",
+        "b.": "18 21",
+        "c.": "14 17",
+        "d.": "12 13",
+        "e.": "18 17"
+      },
+      "answer": {
+        "e.": "This is a simple alternating addition and subtraction series. First, 3 is added, then 1 is subtracted, then 3 is added, 1 subtracted, and so on."
+      }
+    },
+    "29": {
+      "question": "75 65 85 55 45 85 35",
+      "options": {
+        "a.": "25 15",
+        "b.": "25 85",
+        "c.": "35 25",
+        "d.": "85 35",
+        "e.": "25 75  "
+      },
+      "answer": {
+        "b.": "This is a simple subtraction series in which a random number, 85, is interpolated as every third number. In the subtraction series, 10 is subtracted from each number to arrive at the next."
+      }
+    },
+    "30": {
+      "question": "1 10 7 20 13 30 19",
+      "options": {
+        "a.": "26 40",
+        "b.": "29 36",
+        "c.": "40 25",
+        "d.": "25 31",
+        "e.": "40 50"
+      },
+      "answer": {
+        "c.": "Here, every other number follows a different pattern. In the first series, 6 is added to each number to arrive at the next. In the second series, 10 is added to each number to arrive at the next."
+      }
+    },
+    "31": {
+      "question": "10 20 25 35 40 50 55",
+      "options": {
+        "a.": "70 65",
+        "b.": "60 70",
+        "c.": "60 75",
+        "d.": "60 65",
+        "e.": "65 70"
+      },
+      "answer": {
+        "e.": "This is an alternating addition series, in which 10 is added, then 5, then 10, and so on."
+      }
+    },
+    "32": {
+      "question": "40 40 31 31 22 22 13",
+      "options": {
+        "a.": "13 4",
+        "b.": "13 5",
+        "c.": "4 13",
+        "d.": "9 4",
+        "e.": "4 4"
+      },
+      "answer": {
+        "a.": "This is a subtraction series with repetition. Each number repeats itself and then decreases by 9."
+      }
+    },
+    "33": {
+      "question": "17 17 34 20 20 31 23",
+      "options": {
+        "a.": "26 23",
+        "b.": "34 20",
+        "c.": "23 33",
+        "d.": "27 28",
+        "e.": "23 28"
+      },
+      "answer": {
+        "e.": "This is an alternating subtraction series with repetition. There are two different patterns here. In the first, a number repeats itself; then 3 is added to that number to arrive at the next number, which also repeats. This gives the series 17, 17, 20, 20, 23, and so on. Every third number follows a second pattern, in which 3 is subtracted from each number to arrive at the next: 34, 31, 28."
+      }
+    },
+    "34": {
+      "question": "2 3 4 5 6 4 8",
+      "options": {
+        "a.": "9 10",
+        "b.": "4 8",
+        "c.": "10 4",
+        "d.": "9 4",
+        "e.": "8 9"
+      },
+      "answer": {
+        "d.": "This is an alternating addition series with a random number, 4, interpolated as every third number. In the main series, 1 is added, then 2 is added, then 1, then 2, and so on."
+      }
+    },
+    "35": {
+      "question": "61 57 50 61 43 36 61",
+      "options": {
+        "a.": "29 61",
+        "b.": "27 20",
+        "c.": "31 61",
+        "d.": "22 15",
+        "e.": "29 22"
+      },
+      "answer": {
+        "e.": "This is an alternating repetition series, in which a random number, 61, is interpolated as every third number into an otherwise simple subtraction series. Starting with the second number, 57, each number (except"
+      }
+    },
+    "36": {
+      "question": "9 16 23 30 37 44 51",
+      "options": {
+        "a.": "59 66",
+        "b.": "56 62",
+        "c.": "58 66",
+        "d.": "58 65",
+        "e.": "54 61"
+      },
+      "answer": {
+        "d.": "Here is a simple addition series, which begins with 9 and adds 7."
+      }
+    },
+    "37": {
+      "question": "8 22 12 16 22 20 24",
+      "options": {
+        "a.": "28 32",
+        "b.": "28 22",
+        "c.": "22 28",
+        "d.": "32 36",
+        "e.": "22 26"
+      },
+      "answer": {
+        "c.": "This is an alternating repetition series, with a random number, 22, interpolated as every third number into an otherwise simple addition series. In the addition series, 4 is added to each number to arrive at the next number."
+      }
+    },
+    "38": {
+      "question": "6 20 8 14 10 8 12",
+      "options": {
+        "a.": "14 10",
+        "b.": "2 18",
+        "c.": "4 12",
+        "d.": "2 14",
+        "e.": "14 14"
+      },
+      "answer": {
+        "d.": "This is an alternating addition and subtraction series. In the first pattern, 2 is added to each number to arrive at the next; in the alternate pattern, 6 is subtracted from each number to arrive at the next."
+      }
+    },
+    "39": {
+      "question": "11 16 21 26 31 36 41",
+      "options": {
+        "a.": "47 52",
+        "b.": "46 52",
+        "c.": "45 49",
+        "d.": "46 51",
+        "e.": "46 52"
+      },
+      "answer": {
+        "d.": "In this simple addition series, each number is 5 more than the previous number."
+      }
+    },
+    "40": {
+      "question": "8 11 21 15 18 21 22",
+      "options": {
+        "a.": "25 18",
+        "b.": "25 21",
+        "c.": "25 29",
+        "d.": "24 21",
+        "e.": "22 26  "
+      },
+      "answer": {
+        "b.": "This is an alternating addition series, with a random number, 21, interpolated as every third number. The addition series alternates between adding 3 and adding 4. The number 21 appears after each number arrived at by adding 3."
+      }
+    },
+    "41": {
+      "question": "44 41 38 35 32 29 26",
+      "options": {
+        "a.": "24 21",
+        "b.": "22 19",
+        "c.": "23 19",
+        "d.": "29 32",
+        "e.": "23 20"
+      },
+      "answer": {
+        "e.": "This is a simple subtraction series, in which"
+      }
+    },
+    "42": {
+      "question": "6 10 14 18 22 26 30",
+      "options": {
+        "a.": "36 40",
+        "b.": "33 37",
+        "c.": "38 42",
+        "d.": "34 36",
+        "e.": "34 38"
+      },
+      "answer": {
+        "e.": "This simple addition series adds 4 to each number to arrive at the next."
+      }
+    },
+    "43": {
+      "question": "34 30 26 22 18 14 10",
+      "options": {
+        "a.": "8 6",
+        "b.": "6 4",
+        "c.": "14 18",
+        "d.": "6 2",
+        "e.": "4 0"
+      },
+      "answer": {
+        "d.": "This is a simple subtraction series, in which"
+      }
+    },
+    "44": {
+      "question": "2 44 4 41 6 38 8",
+      "options": {
+        "a.": "10 12",
+        "b.": "35 32",
+        "c.": "34 9",
+        "d.": "35 10",
+        "e.": "10 52"
+      },
+      "answer": {
+        "d.": "Here, there are two alternating patterns, one addition and one subtraction. The first starts with 2 and increases by 2; the second starts with 44 and decreases by 3."
+      }
+    },
+    "45": {
+      "question": "32 29 26 23 20 17 14",
+      "options": {
+        "a.": "11 8",
+        "b.": "12 8",
+        "c.": "11 7",
+        "d.": "32 29",
+        "e.": "10 9"
+      },
+      "answer": {
+        "a.": "In this simple subtraction series, the numbers decrease by 3."
+      }
+    },
+    "46": {
+      "question": "14 14 26 26 38 38 50",
+      "options": {
+        "a.": "60 72",
+        "b.": "50 62",
+        "c.": "50 72",
+        "d.": "62 62",
+        "e.": "62 80"
+      },
+      "answer": {
+        "b.": "In this simple addition with repetition series, each number in the series repeats itself, and then increases by 12 to arrive at the next number."
+      }
+    },
+    "47": {
+      "question": "8 12 9 13 10 14 11",
+      "options": {
+        "a.": "14 11",
+        "b.": "15 12",
+        "c.": "8 15",
+        "d.": "15 19",
+        "e.": "8 5"
+      },
+      "answer": {
+        "b.": "This is an alternating addition and subtraction series, in which the addition of 4 is alternated with the subtraction of 3."
+      }
+    },
+    "48": {
+      "question": "4 7 26 10 13 20 16",
+      "options": {
+        "a.": "14 4",
+        "b.": "14 17",
+        "c.": "18 14",
+        "d.": "19 13",
+        "e.": "19 14"
+      },
+      "answer": {
+        "e.": "Two patterns alternate here, with every third number following the alternate pattern. In the main series, beginning with 4, 3 is added to each number to arrive at the next. In the alternating series, beginning with 26, 6 is subtracted from each number to arrive at the next."
+      }
+    },
+    "49": {
+      "question": "3 8 10 15 17 22 24",
+      "options": {
+        "a.": "26 28",
+        "b.": "29 34",
+        "c.": "29 31",
+        "d.": "26 31",
+        "e.": "26 32"
+      },
+      "answer": {
+        "c.": "This is an alternating addition series that adds 5, then 2, then 5, and so on."
+      }
+    },
+    "50": {
+      "question": "17 14 14 11 11 8 8",
+      "options": {
+        "a.": "8 5",
+        "b.": "5 2",
+        "c.": "8 2",
+        "d.": "5 5",
+        "e.": "5 8"
+      },
+      "answer": {
+        "d.": "In this simple subtraction with repetition series, each number is repeated, then 3 is subtracted to give the next number, which is then repeated, and so on."
+      }
+    },
+    "51": {
+      "question": "13 29 15 26 17 23 19",
+      "options": {
+        "a.": "21 23",
+        "b.": "20 21",
+        "c.": "20 17",
+        "d.": "25 27",
+        "e.": "22 20  "
+      },
+      "answer": {
+        "b.": "Here, there are two alternating patterns, with every other number following a different pattern. The first pattern begins with 13 and adds 2 to each number to arrive at the next; the alternating pattern begins with 29 and subtracts 3 each time."
+      }
+    },
+    "52": {
+      "question": "16 26 56 36 46 68 56",
+      "options": {
+        "a.": "80 66",
+        "b.": "64 82",
+        "c.": "66 80",
+        "d.": "78 68",
+        "e.": "66 82"
+      },
+      "answer": {
+        "c.": "Here, every third number follows a different pattern from the main series. In the main series, beginning with 16, 10 is added to each number to arrive at the next. In the alternating series, beginning with 56, 12 is added to each number to arrive at the next."
+      }
+    },
+    "53": {
+      "question": "7 9 66 12 14 66 17",
+      "options": {
+        "a.": "19 66",
+        "b.": "66 19",
+        "c.": "19 22",
+        "d.": "20 66",
+        "e.": "66 20"
+      },
+      "answer": {
+        "a.": "This is an alternating addition series with repetition, in which a random number, 66, is interpolated as every third number. The regular series adds 2, then 3, then 2, and so on, with 66 repeated after each \"add 2\" step."
+      }
+    },
+    "54": {
+      "question": "3 5 35 10 12 35 17",
+      "options": {
+        "a.": "22 35",
+        "b.": "35 19",
+        "c.": "19 35",
+        "d.": "19 24",
+        "e.": "22 24"
+      },
+      "answer": {
+        "c.": "This is an alternating addition series, with a random number, 35, interpolated as every third number. The pattern of addition is to add 2, add 5, add 2, and so on. The number"
+      }
+    },
+    "55": {
+      "question": "36 31 29 24 22 17 15",
+      "options": {
+        "a.": "13 11",
+        "b.": "10 5",
+        "c.": "13 8",
+        "d.": "12 7",
+        "e.": "10 8"
+      },
+      "answer": {
+        "e.": "This is an alternating subtraction series, which subtracts 5, then 2, then 5, and so on."
+      }
+    },
+    "56": {
+      "question": "42 40 38 35 33 31 28",
+      "options": {
+        "a.": "25 22",
+        "b.": "26 23",
+        "c.": "26 24",
+        "d.": "25 23",
+        "e.": "26 22"
+      },
+      "answer": {
+        "c.": "This is an alternating subtraction series in which 2 is subtracted twice, then 3 is subtracted once, then 2 is subtracted twice, and so on."
+      }
+    },
+    "57": {
+      "question": "11 14 14 17 17 20 20",
+      "options": {
+        "a.": "23 23",
+        "b.": "23 26",
+        "c.": "21 24",
+        "d.": "24 24",
+        "e.": "24 27"
+      },
+      "answer": {
+        "a.": "This is a simple addition series with repetition. It adds 3 to each number to arrive at the next, which is repeated before 3 is added again."
+      }
+    },
+    "58": {
+      "question": "17 32 19 29 21 26 23",
+      "options": {
+        "a.": "25 25",
+        "b.": "20 22",
+        "c.": "23 25",
+        "d.": "25 22",
+        "e.": "27 32"
+      },
+      "answer": {
+        "c.": "Here, there are two alternating patterns. The first begins with 17 and adds 2; the second begins with 32 and subtracts 3."
+      }
+    },
+    "59": {
+      "question": "10 34 12 31 14 28 16",
+      "options": {
+        "a.": "25 18",
+        "b.": "30 13",
+        "c.": "19 26",
+        "d.": "18 20",
+        "e.": "25 22"
+      },
+      "answer": {
+        "a.": "Two patterns alternate here. The first pattern begins with 10 and adds 2 to each number to arrive at the next; the alternating pattern begins with 34 and subtracts 3 each time."
+      }
+    },
+    "60": {
+      "question": "32 31 32 29 32 27 32",
+      "options": {
+        "a.": "25 32",
+        "b.": "31 32",
+        "c.": "29 32",
+        "d.": "25 30",
+        "e.": "29 30  "
+      },
+      "answer": {
+        "a.": "This is an alternating repetition series. The number 32 alternates with a series in which each number decreases by 2."
+      }
+    },
+    "61": {
+      "question": "Look at this series: 8, 43, 11, 41, __, 39, 17, . . . What number should fill in the blank?",
+      "options": {
+        "a.": "8",
+        "b.": "14",
+        "c.": "43",
+        "d.": "44"
+      },
+      "answer": {
+        "b.": "This is a simple alternating addition and subtraction series. The first series begins with 8 and adds 3; the second begins with"
+      }
+    },
+    "62": {
+      "question": "Look at this series: 15, __, 27, 27, 39, 39, . . . What number should fill the blank?",
+      "options": {
+        "a.": "51",
+        "b.": "39",
+        "c.": "23",
+        "d.": "15"
+      },
+      "answer": {
+        "d.": "In this simple addition with repetition series, each number in the series repeats itself, and then increases by 12 to arrive at the next number."
+      }
+    },
+    "63": {
+      "question": "Look at this series: 83, 73, 93, 63, __, 93, 43, . . . What number should fill the blank?",
+      "options": {
+        "a.": "33",
+        "b.": "53",
+        "c.": "73",
+        "d.": "93"
+      },
+      "answer": {
+        "b.": "This is a simple subtraction series in which a random number, 93, is interpolated as every third number. In the subtraction series, 10 is subtracted from each number to arrive at the next."
+      }
+    },
+    "64": {
+      "question": "Look at this series: 4, 7, 25, 10, __, 20, 16, 19, . . . What number should fill the blank?",
+      "options": {
+        "a.": "13",
+        "b.": "15",
+        "c.": "20",
+        "d.": "28"
+      },
+      "answer": {
+        "a.": "Two series alternate here, with every third number following a different pattern. In the main series, 3 is added to each number to arrive at the next. In the alternating series, 5 is subtracted from each number to arrive at the next."
+      }
+    },
+    "65": {
+      "question": "Look at this series: 72, 76, 73, 77, 74, __, 75, . . . What number should fill the blank?",
+      "options": {
+        "a.": "70",
+        "b.": "71",
+        "c.": "75",
+        "d.": "78"
+      },
+      "answer": {
+        "d.": "This series alternates the addition of 4 with the subtraction of 3."
+      }
+    },
+    "66": {
+      "question": "Look at this series: 70, 71, 76, __, 81, 86, 70, 91, . . . What number should fill the blank?",
+      "options": {
+        "a.": "70",
+        "b.": "71",
+        "c.": "80",
+        "d.": "96"
+      },
+      "answer": {
+        "a.": "In this series, 5 is added to the previous number; the number 70 is inserted as every third number."
+      }
+    },
+    "67": {
+      "question": "Look at this series: 664, 332, 340, 170, __, 89, . . . What number should fill the blank?",
+      "options": {
+        "a.": "85",
+        "b.": "97",
+        "c.": "109",
+        "d.": "178"
+      },
+      "answer": {
+        "d.": "This is an alternating division and addition series: First, divide by 2, and then add 8."
+      }
+    },
+    "68": {
+      "question": "Look at this series: 0.15, 0.3, __, 1.2, 2.4, . . . What number should fill the blank?",
+      "options": {
+        "a.": "4.8",
+        "b.": "0.006",
+        "c.": "0.6",
+        "d.": "0.9"
+      },
+      "answer": {
+        "c.": "This is a simple multiplication series. Each number is 2 times greater than the previous number."
+      }
+    },
+    "69": {
+      "question": "Look at this series: \ufffd1 9 \ufffd, \ufffd1 3 \ufffd, 1, __, 9, . . . What number should fill the blank?",
+      "options": {
+        "a.": "\ufffd2 3 \ufffd",
+        "b.": "3",
+        "c.": "6",
+        "d.": "27"
+      },
+      "answer": {
+        "b.": "This is a multiplication series; each number is 3 times the previous number."
+      }
+    },
+    "70": {
+      "question": "Look at this series: U32, V29, __, X23, Y20, . . . What number should fill the blank?",
+      "options": {
+        "a.": "W26",
+        "b.": "W17",
+        "c.": "Z17",
+        "d.": "Z26  "
+      },
+      "answer": {
+        "a.": "In this series, the letters progress by 1; the numbers decrease by 3."
+      }
+    },
+    "71": {
+      "question": "Look at this series: J14, L16, __, P20, R22, . . . What number should fill the blank?",
+      "options": {
+        "a.": "S24",
+        "b.": "N18",
+        "c.": "M18",
+        "d.": "T24"
+      },
+      "answer": {
+        "b.": "In this series, the letters progress by 2, and the numbers increase by 2."
+      }
+    },
+    "72": {
+      "question": "Look at this series: F2, __, D8, C16, B32, . . . What number should fill the blank?",
+      "options": {
+        "a.": "A16",
+        "b.": "G4",
+        "c.": "E4",
+        "d.": "E3"
+      },
+      "answer": {
+        "c.": "The letters decrease by 1; the numbers are multiplied by 2."
+      }
+    },
+    "73": {
+      "question": "Look at this series: V, VIII, XI, XIV, __, XX, . . . What number should fill the blank?",
+      "options": {
+        "a.": "IX",
+        "b.": "XXIII",
+        "c.": "XV",
+        "d.": "XVII"
+      },
+      "answer": {
+        "d.": "This is a simple addition series; each number is 3 more than the previous number."
+      }
+    },
+    "74": {
+      "question": "Look at this series: XXIV, XX, __, XII, VIII, . . . What number should fill the blank?",
+      "options": {
+        "a.": "XXII",
+        "b.": "XIII",
+        "c.": "XVI",
+        "d.": "IV"
+      },
+      "answer": {
+        "c.": "This is a simple subtraction series; each number is 4 less than the previous number."
+      }
+    },
+    "75": {
+      "question": "Look at this series: VI, 10, V, 11, __, 12, III, . . . What number should fill the blank?",
+      "options": {
+        "a.": "II",
+        "b.": "IV",
+        "c.": "IX",
+        "d.": "14  "
+      },
+      "answer": {
+        "b.": "This is an alternating addition and subtraction series. Roman numbers alternate with Arabic numbers. In the Roman numeral pattern, each number decreases by 1. In the Arabic numeral pattern, each number increases by 1."
+      }
+    }
+  }
+}

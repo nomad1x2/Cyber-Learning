@@ -1,0 +1,544 @@
+{
+  "questions": {
+    "1": {
+      "question": "book",
+      "options": {
+        "a.": "fiction",
+        "b.": "pages",
+        "c.": "pictures",
+        "d.": "learning"
+      },
+      "answer": {
+        "b.": "The necessary part of a book is its pages; there is no book without pages. Not all books are fiction (choice a), and not all books have pictures (choice c). Learning (choice d) may or may not take place with a book."
+      }
+    },
+    "2": {
+      "question": "guitar",
+      "options": {
+        "a.": "band",
+        "b.": "teacher",
+        "c.": "songs",
+        "d.": "strings"
+      },
+      "answer": {
+        "d.": "A guitar does not exist without strings, so strings are an essential part of a guitar. A band is not necessary to a guitar (choice a). Guitar playing can be learned without a teacher (choice b). Songs are byproducts of a guitar (choice c)."
+      }
+    },
+    "3": {
+      "question": "shoe",
+      "options": {
+        "a.": "sole",
+        "b.": "leather",
+        "c.": "laces",
+        "d.": "walking"
+      },
+      "answer": {
+        "a.": "All shoes have a sole of some sort. Not all shoes are made of leather (choice b); nor do they all have laces (choice c). Walking (choice d) is not essential to a shoe."
+      }
+    },
+    "4": {
+      "question": "respiration",
+      "options": {
+        "a.": "mouth",
+        "b.": "circulation",
+        "c.": "oxygen",
+        "d.": "carbon monoxide"
+      },
+      "answer": {
+        "c.": "A person or animal must take in oxygen for respiration to occur. A mouth (choice a) is not essential because breathing can occur through the nose. Choices b and d are clearly not essential and can be ruled out."
+      }
+    },
+    "5": {
+      "question": "election",
+      "options": {
+        "a.": "president",
+        "b.": "voter",
+        "c.": "November",
+        "d.": "nation"
+      },
+      "answer": {
+        "b.": "An election does not exist without voters. The election of a president (choice a) is a byproduct. Not all elections are held in November (choice c), nor are they nationwide (choice d)."
+      }
+    },
+    "6": {
+      "question": "diploma",
+      "options": {
+        "a.": "principal",
+        "b.": "curriculum",
+        "c.": "employment",
+        "d.": "graduation"
+      },
+      "answer": {
+        "d.": "A diploma is awarded at graduation, so graduation is essential to obtaining a diploma. Employment may be a byproduct (choice c). A principal and a curriculum (choices a and b) may play a role in the awarding of some diplomas, but they are not essential."
+      }
+    },
+    "7": {
+      "question": "swimming",
+      "options": {
+        "a.": "pool",
+        "b.": "bathing suit",
+        "c.": "water",
+        "d.": "life jacket"
+      },
+      "answer": {
+        "c.": "Water is essential for swimming-without water, there is no swimming. The other choices are things that may or may not be present."
+      }
+    },
+    "8": {
+      "question": "school",
+      "options": {
+        "a.": "student",
+        "b.": "report card",
+        "c.": "test",
+        "d.": "learning"
+      },
+      "answer": {
+        "a.": "Without students, a school cannot exist; therefore, students are the essential part of schools. The other choices may be related, but they are not essential."
+      }
+    },
+    "9": {
+      "question": "language",
+      "options": {
+        "a.": "tongue",
+        "b.": "slang",
+        "c.": "writing",
+        "d.": "words"
+      },
+      "answer": {
+        "d.": "Words are a necessary part of language. Slang is not necessary to language (choice b). Not all languages are written (choice c). Words do not have to be spoken in order to be part of a language (choice a)."
+      }
+    },
+    "10": {
+      "question": "desert",
+      "options": {
+        "a.": "cactus",
+        "b.": "arid",
+        "c.": "oasis",
+        "d.": "flat"
+      },
+      "answer": {
+        "b.": "A desert is an arid tract of land. Not all deserts are flat (choice d). Not all deserts have cacti or oases (choices a and c)."
+      }
+    },
+    "11": {
+      "question": "lightning",
+      "options": {
+        "a.": "electricity",
+        "b.": "thunder",
+        "c.": "brightness",
+        "d.": "rain  "
+      },
+      "answer": {
+        "a.": "Lightning is produced from a discharge of electricity, so electricity is essential. Thunder and rain are not essential to the production of lightning (choices b and d). Brightness may be a byproduct of lightning, but it is not essential (choice c)."
+      }
+    },
+    "12": {
+      "question": "monopoly",
+      "options": {
+        "a.": "corrupt",
+        "b.": "exclusive",
+        "c.": "rich",
+        "d.": "gigantic"
+      },
+      "answer": {
+        "b.": "The essential part of a monopoly is that it involves exclusive ownership or control."
+      }
+    },
+    "13": {
+      "question": "harvest",
+      "options": {
+        "a.": "autumn",
+        "b.": "stockpile",
+        "c.": "tractor",
+        "d.": "crop"
+      },
+      "answer": {
+        "d.": "To harvest something, one must have a crop, which is the essential element for this item. Autumn (choice a) is not the only time crops are harvested. There may not be enough of a crop to stockpile (choice b), and you can harvest crops without a tractor (choice c)."
+      }
+    },
+    "14": {
+      "question": "gala",
+      "options": {
+        "a.": "celebration",
+        "b.": "tuxedo",
+        "c.": "appetizer",
+        "d.": "orator"
+      },
+      "answer": {
+        "a.": "A gala indicates a celebration, the necessary element here. A tuxedo (choice b) is not required garb at a gala, nor is an appetizer (choice c). A gala may be held without the benefit of anyone speaking (choice d)."
+      }
+    },
+    "15": {
+      "question": "pain",
+      "options": {
+        "a.": "cut",
+        "b.": "burn",
+        "c.": "nuisance",
+        "d.": "hurt  "
+      },
+      "answer": {
+        "d.": "Pain is suffering or hurt, so choice d is the essential element. Without hurt, there is no pain. A cut (choice a) or a burn (choice b) may cause pain, but so do many other types of injury. A nuisance (choice c) is an annoyance that may or may not cause pain."
+      }
+    },
+    "16": {
+      "question": "infirmary",
+      "options": {
+        "a.": "surgery",
+        "b.": "disease",
+        "c.": "patient",
+        "d.": "receptionist"
+      },
+      "answer": {
+        "c.": "An infirmary is a place that takes care of the infirm, sick, or injured. Without patients, there is no infirmary. Surgery (choice a) may not be required for patients. A disease (choice b) is not necessary because the infirmary may only see patients with injuries. A receptionist (choice d) would be helpful but not essential."
+      }
+    },
+    "17": {
+      "question": "facsimile",
+      "options": {
+        "a.": "picture",
+        "b.": "image",
+        "c.": "mimeograph",
+        "d.": "copier"
+      },
+      "answer": {
+        "b.": "A facsimile must involve an image of some sort. The image or facsimile need not, however, be a picture (choice a). A mimeograph and a copier machine (choices c and d) are just a two of the ways that images may be produced, so they do not qualify as the essential element for this item."
+      }
+    },
+    "18": {
+      "question": "domicile",
+      "options": {
+        "a.": "tenant",
+        "b.": "dwelling",
+        "c.": "kitchen",
+        "d.": "house"
+      },
+      "answer": {
+        "b.": "A domicile is a legal residence, so dwelling is the essential component for this item. You do not need a tenant (choice a) in the domicile, nor do you need a kitchen (choice c). A house (choice d) is just one form of a domicile (which could also be a tent, hogan, van, camper, motor home, apartment, dormitory, etc.)."
+      }
+    },
+    "19": {
+      "question": "culture",
+      "options": {
+        "a.": "civility",
+        "b.": "education",
+        "c.": "agriculture",
+        "d.": "customs"
+      },
+      "answer": {
+        "d.": "A culture is the behavior pattern of a particular population, so customs are the essential element. A culture may or may not be civil or educated (choices a and b). A culture may be an agricultural society (choice c), but this is not the essential element."
+      }
+    },
+    "20": {
+      "question": "bonus",
+      "options": {
+        "a.": "reward",
+        "b.": "raise",
+        "c.": "cash",
+        "d.": "employer"
+      },
+      "answer": {
+        "a.": "A bonus is something given or paid beyond what is usual or expected, so reward is the essential element. A bonus may not involve a raise in pay or cash (choices b and c), and it may be received from someone other than an employer (choice d)."
+      }
+    },
+    "21": {
+      "question": "antique",
+      "options": {
+        "a.": "rarity",
+        "b.": "artifact",
+        "c.": "aged",
+        "d.": "prehistoric"
+      },
+      "answer": {
+        "c.": "An antique is something that belongs to, or was made in, an earlier period. It may or may not be a rarity (choice a), and it does not have to be an artifact, an object produced or shaped by human craft (choice b). An antique is old but does not have to be prehistoric (choice d)."
+      }
+    },
+    "22": {
+      "question": "itinerary",
+      "options": {
+        "a.": "map",
+        "b.": "route",
+        "c.": "travel",
+        "d.": "guidebook"
+      },
+      "answer": {
+        "b.": "An itinerary is a proposed route of a journey. A map (choice a) is not necessary to have a planned route. Travel (choice c) is usually the outcome of an itinerary, but not always. A guidebook (choice d) may be used to plan the journey but is not essential."
+      }
+    },
+    "23": {
+      "question": "orchestra",
+      "options": {
+        "a.": "violin",
+        "b.": "stage",
+        "c.": "musician",
+        "d.": "soloist"
+      },
+      "answer": {
+        "c.": "An orchestra is a large group of musicians, so musicians are essential. Although many orchestras have violin sections, violins aren't essential to an orchestra (choice a). Neither a stage (choice b) nor a soloist (choice d) is necessary."
+      }
+    },
+    "24": {
+      "question": "knowledge",
+      "options": {
+        "a.": "school",
+        "b.": "teacher",
+        "c.": "textbook",
+        "d.": "learning"
+      },
+      "answer": {
+        "d.": "Knowledge is understanding gained through experience or study, so learning is the essential element. A school (choice a) is not necessary for learning or knowledge to take place, nor is a teacher or a textbook (choices b and c)."
+      }
+    },
+    "25": {
+      "question": "dimension",
+      "options": {
+        "a.": "compass",
+        "b.": "ruler",
+        "c.": "inch",
+        "d.": "measure"
+      },
+      "answer": {
+        "d.": "A dimension is a measure of spatial content. A compass (choice a) and ruler (choice b) may help determine the dimension, but other instruments may also be used, so these are not the essential element here. An inch (choice c) is only one way to determine a dimension."
+      }
+    },
+    "26": {
+      "question": "sustenance",
+      "options": {
+        "a.": "nourishment",
+        "b.": "water",
+        "c.": "grains",
+        "d.": "menu"
+      },
+      "answer": {
+        "a.": "Sustenance is something, especially food, that sustains life or health, so nourishment is the essential element. Water and grains (choices b and c) are components of nourishment, but other things can be taken in as well. A menu (choice d) may present a list of foods, but it is not essential to sustenance."
+      }
+    },
+    "27": {
+      "question": "ovation",
+      "options": {
+        "a.": "outburst",
+        "b.": "bravo",
+        "c.": "applause",
+        "d.": "encore  "
+      },
+      "answer": {
+        "c.": "An ovation is prolonged, enthusiastic applause, so applause is necessary to an ovation. An outburst (choice a) may take place during an ovation; \"bravo\" (choice b) may or may not be uttered; and an encore (choice d) would take place after an ovation."
+      }
+    },
+    "28": {
+      "question": "vertebrate",
+      "options": {
+        "a.": "backbone",
+        "b.": "reptile",
+        "c.": "mammal",
+        "d.": "animal"
+      },
+      "answer": {
+        "a.": "All vertebrates have a backbone. Reptiles (choice b) are vertebrates, but so are many other animals. Mammals (choice c) are vertebrates, but so are birds and reptiles. All vertebrates (choice d) are animals, but not all animals are vertebrates."
+      }
+    },
+    "29": {
+      "question": "provisions",
+      "options": {
+        "a.": "groceries",
+        "b.": "supplies",
+        "c.": "gear",
+        "d.": "caterers"
+      },
+      "answer": {
+        "b.": "Provisions imply the general supplies needed, so choice b is the essential element. The other choices are byproducts, but they are not essential."
+      }
+    },
+    "30": {
+      "question": "purchase",
+      "options": {
+        "a.": "trade",
+        "b.": "money",
+        "c.": "bank",
+        "d.": "acquisition  "
+      },
+      "answer": {
+        "d.": "A purchase is an acquisition of something. A purchase may be made by trade (choice a) or with money (choice b), so those are not essential elements. A bank (choice c) may or may not be involved in a purchase."
+      }
+    },
+    "31": {
+      "question": "dome",
+      "options": {
+        "a.": "rounded",
+        "b.": "geodesic",
+        "c.": "governmental",
+        "d.": "coppery"
+      },
+      "answer": {
+        "a.": "A dome is a large rounded roof or ceiling, so being rounded is essential to a dome. A geodesic dome (choice b) is only one type of dome. Some, but not all domes, have copper roofs (choice d). Domes are often found on government buildings (choice c), but domes exist in many other places."
+      }
+    },
+    "32": {
+      "question": "recipe",
+      "options": {
+        "a.": "desserts",
+        "b.": "directions",
+        "c.": "cookbook",
+        "d.": "utensils"
+      },
+      "answer": {
+        "b.": "A recipe is a list of directions to make something. Recipes may be used to prepare desserts (choice a), among other things. One does not need a cookbook (choice c) to have a recipe, and utensils (choice d) may or may not be used to make a recipe."
+      }
+    },
+    "33": {
+      "question": "hurricane",
+      "options": {
+        "a.": "beach",
+        "b.": "cyclone",
+        "c.": "damage",
+        "d.": "wind"
+      },
+      "answer": {
+        "d.": "A hurricane cannot exist without wind. A beach is not essential to a hurricane (choice a). A hurricane is a type of cyclone, which rules out choice b. Not all hurricanes cause damage (choice c)."
+      }
+    },
+    "34": {
+      "question": "autograph",
+      "options": {
+        "a.": "athlete",
+        "b.": "actor",
+        "c.": "signature",
+        "d.": "pen"
+      },
+      "answer": {
+        "c.": "Without a signature, there is no autograph. Athletes and actors (choices a and b) may sign autographs, but they are not essential. An autograph can be signed with something other than a pen (choice d)."
+      }
+    },
+    "35": {
+      "question": "town",
+      "options": {
+        "a.": "residents",
+        "b.": "skyscrapers",
+        "c.": "parks",
+        "d.": "libraries"
+      },
+      "answer": {
+        "a.": "Residents must be present in order to have a town. A town may be too small to have skyscrapers (choice b). A town may or may not have parks (choice c) and libraries (choice d), so they are not the essential elements."
+      }
+    },
+    "36": {
+      "question": "wedding",
+      "options": {
+        "a.": "love",
+        "b.": "church",
+        "c.": "ring",
+        "d.": "marriage"
+      },
+      "answer": {
+        "d.": "A wedding results in a joining, or a marriage, so choice d is the essential element. Love (choice a) usually precedes a wedding, but it is not essential. A wedding may take place anywhere, so a church (choice b) is not required. A ring (choice c) is often used in a wedding, but it is not necessary."
+      }
+    },
+    "37": {
+      "question": "faculty",
+      "options": {
+        "a.": "buildings",
+        "b.": "textbooks",
+        "c.": "teachers",
+        "d.": "meetings"
+      },
+      "answer": {
+        "c.": "A faculty consists of a group of teachers and cannot exist without them. The faculty may work in buildings (choice a), but the buildings aren't essential. They may use textbooks (choice b) and attend meetings (choice d), but these aren't essential either."
+      }
+    },
+    "38": {
+      "question": "cage",
+      "options": {
+        "a.": "enclosure",
+        "b.": "prisoner",
+        "c.": "animal",
+        "d.": "zoo"
+      },
+      "answer": {
+        "a.": "A cage is meant to keep something surrounded, so enclosure is the essential element. A prisoner (choice b) or an animal (choice c) are two things that may be kept in cages, among many other things. A zoo (choice d) is only one place that has cages."
+      }
+    },
+    "39": {
+      "question": "directory",
+      "options": {
+        "a.": "telephone",
+        "b.": "listing",
+        "c.": "computer",
+        "d.": "names"
+      },
+      "answer": {
+        "b.": "A directory is a listing of names or things, so choice b is the essential element. A telephone (choice a) often has a directory associated with it, but it is not essential. A computer (choice c) uses a directory format to list files, but it is not required. Names (choice d) are often listed in a directory, but many other things are listed in directories, so this is not the essential element."
+      }
+    },
+    "40": {
+      "question": "contract",
+      "options": {
+        "a.": "agreement",
+        "b.": "document",
+        "c.": "written",
+        "d.": "attorney"
+      },
+      "answer": {
+        "a.": "An agreement is necessary to have a contract. A contract may appear on a document (choice b), but it is not required. A contract may be oral as well as written, so choice c is not essential. A contract can be made without an attorney (choice d)."
+      }
+    },
+    "41": {
+      "question": "saddle",
+      "options": {
+        "a.": "horse",
+        "b.": "seat",
+        "c.": "stirrups",
+        "d.": "horn"
+      },
+      "answer": {
+        "b.": "A saddle is something one uses to sit on an animal, so it must have a seat (choice b). A saddle is often used on a horse (choice a), but it may be used on other animals. Stirrups (choice c) are often found on a saddle but may not be used. A horn (choice d) is found on Western saddles, but not English saddles, so it is not the essential element here."
+      }
+    },
+    "42": {
+      "question": "vibration",
+      "options": {
+        "a.": "motion",
+        "b.": "electricity",
+        "c.": "science",
+        "d.": "sound  "
+      },
+      "answer": {
+        "a.": "Something cannot vibrate without creating motion, so motion is essential to vibration."
+      }
+    },
+    "43": {
+      "question": "cell",
+      "options": {
+        "a.": "chlorophyll",
+        "b.": "nucleus",
+        "c.": "nerve",
+        "d.": "human"
+      },
+      "answer": {
+        "b.": "The essential part of a cell is its nucleus. Not all cells produce chlorophyll (choice a). Not all cells are nerve cells (choice c). All living things, not just humans (choice d), have cells."
+      }
+    },
+    "44": {
+      "question": "champion",
+      "options": {
+        "a.": "running",
+        "b.": "swimming",
+        "c.": "winning",
+        "d.": "speaking"
+      },
+      "answer": {
+        "c.": "Without a first-place win, there is no champion, so winning is essential. There may be champions in running, swimming, or speaking, but there are also champions in many other areas."
+      }
+    },
+    "45": {
+      "question": "glacier",
+      "options": {
+        "a.": "mountain",
+        "b.": "winter",
+        "c.": "prehistory",
+        "d.": "ice  "
+      },
+      "answer": {
+        "d.": "A glacier is a large mass of ice and cannot exist without it. A glacier can move down a mountain, but it can also move across a valley or a plain, which rules out choice a. Glaciers exist in all seasons, which rules out choice b. There are many glaciers in the world today, which rules out choice c."
+      }
+    }
+  }
+}

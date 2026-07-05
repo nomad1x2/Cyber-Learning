@@ -1,0 +1,292 @@
+{
+  "questions": {
+    "1": {
+      "question": "Here are some words translated from an  artificial language. granamelke means big tree pinimelke means little tree melkehoon means tree house Which word could mean \"big house\"?",
+      "options": {
+        "a.": "granahoon",
+        "b.": "pinishur",
+        "c.": "pinihoon",
+        "d.": "melkegrana"
+      },
+      "answer": {
+        "a.": "Grana means big; melke means tree; pini means little; hoon means house. Therefore, granahoon means big house."
+      }
+    },
+    "2": {
+      "question": "Here are some words translated from an  artificial language. lelibroon means yellow hat plekafroti means flower garden frotimix means garden salad Which word could mean \"yellow flower\"?",
+      "options": {
+        "a.": "lelifroti",
+        "b.": "lelipleka",
+        "c.": "plekabroon",
+        "d.": "frotibroon"
+      },
+      "answer": {
+        "b.": "Leli means yellow; broon means hat; pleka means flower; froti means garden; mix means salad. Therefore, lelipleka means yellow flower."
+      }
+    },
+    "3": {
+      "question": "Here are some words translated from an  artificial language. moolokarn means blue sky wilkospadi means bicycle race moolowilko means blue bicycle Which word could mean \"racecar\"?",
+      "options": {
+        "a.": "wilkozwet",
+        "b.": "spadiwilko",
+        "c.": "moolobreil",
+        "d.": "spadivolo"
+      },
+      "answer": {
+        "d.": "From wilkospadi, you can determine that wilko means bicicyle and spadi means race. Therefore, the first part of the word that means racecar should begin with spadi. That limits your choices to b and d. Choice b, spadiwilko, is incorrect because we have already determined that wilko means bicycle. Therefore, the answer must be choice d, spadivolo."
+      }
+    },
+    "4": {
+      "question": "Here are some words translated from an  artificial language. daftafoni means advisement imodafta means misadvise imolokti means misconduct Which word could mean \"statement\"?",
+      "options": {
+        "a.": "kratafoni",
+        "b.": "kratadafta",
+        "c.": "loktifoni",
+        "d.": "daftaimo"
+      },
+      "answer": {
+        "a.": "Dafta means advise; foni is the same as the suffix -ment; imo is the same as the prefix mis-; lokti means conduct. Since the only word in the answer choices that hasn't been defined is krata, it is reasonable to assume that krata means state. Therefore, kratafoni is the only choice that could mean statement."
+      }
+    },
+    "5": {
+      "question": "Here are some words translated from an artificial language. dionot means oak tree blyonot means oak leaf blycrin means maple leaf Which word could mean \"maple syrup\"?",
+      "options": {
+        "a.": "blymuth",
+        "b.": "hupponot",
+        "c.": "patricrin",
+        "d.": "crinweel  "
+      },
+      "answer": {
+        "c.": "In this language, the adjective follows the noun. From dionot and blyonot, you can determine that onot means oak. From blyonot and blycrin, you can determine that bly means leaf. Therefore, crin means maple. Because the adjective maple comes after the noun, patricrin is the only possible choice."
+      }
+    },
+    "6": {
+      "question": "Here are some words translated from an artificial language. agnoscrenia means poisonous spider delanocrenia means poisonous snake agnosdeery means brown spider Which word could mean \"black widow spider\"?",
+      "options": {
+        "a.": "deeryclostagnos",
+        "b.": "agnosdelano",
+        "c.": "agnosvitriblunin",
+        "d.": "trymuttiagnos"
+      },
+      "answer": {
+        "c.": "In this language, the noun appears first and the adjectives follow. Since agnos means spider and should appear first, choices a and d can be ruled out. Choice b can be ruled out because delano means snake."
+      }
+    },
+    "7": {
+      "question": "Here are some words translated from an artificial language. myncabel means saddle horse conowir means trail ride cabelalma means horse blanket Which word could mean \"horse ride\"?",
+      "options": {
+        "a.": "cabelwir",
+        "b.": "conocabel",
+        "c.": "almamyn",
+        "d.": "conoalma"
+      },
+      "answer": {
+        "a.": "Myn means saddle; cabel means horse; cono means trail; and wir means ride. Therefore, cabelwir is the correct answer."
+      }
+    },
+    "8": {
+      "question": "Here are some words translated from an artificial language. godabim means kidney stones romzbim means kidney beans romzbako means wax beans Which word could mean \"wax statue\"?",
+      "options": {
+        "a.": "godaromz",
+        "b.": "lazbim",
+        "c.": "wasibako",
+        "d.": "romzpeo"
+      },
+      "answer": {
+        "c.": "In this language, the adjective follows the noun. From godabim and romzbim, you can determine that bim means kidney. From romzbim and romzbako, you can determine that romz means beans. Therefore, bako means wax. Because the adjective wax must come after the noun in this language, wasibako is the only choice."
+      }
+    },
+    "9": {
+      "question": "Here are some words translated from an  artificial language. tamceno means sky blue cenorax means blue cheese aplmitl means star bright Which word could mean \"bright sky\"?",
+      "options": {
+        "a.": "cenotam",
+        "b.": "mitltam",
+        "c.": "raxmitl",
+        "d.": "aplceno"
+      },
+      "answer": {
+        "b.": "Tam means sky; ceno means blue; rax means cheese; apl means star; and mitl means bright. So, mitltam means bright sky."
+      }
+    },
+    "10": {
+      "question": "Here are some words translated from an artificial language. gorblflur means fan belt pixngorbl means ceiling fan arthtusl means tile roof Which word could mean \"ceiling tile\"?",
+      "options": {
+        "a.": "gorbltusl",
+        "b.": "flurgorbl",
+        "c.": "arthflur",
+        "d.": "pixnarth"
+      },
+      "answer": {
+        "d.": "Gorbl means fan; flur means belt; pixn means ceiling; arth means tile; and tusl means roof. Therefore, pixnarth is the correct choice."
+      }
+    },
+    "11": {
+      "question": "Here are some words translated from an artificial language. hapllesh means cloudburst srenchoch means pinball resbosrench means ninepin Which word could mean \"cloud nine\"?",
+      "options": {
+        "a.": "leshsrench",
+        "b.": "ochhapl",
+        "c.": "haploch",
+        "d.": "haplresbo  "
+      },
+      "answer": {
+        "d.": "Hapl means cloud; lesh means burst; srench means pin; och means ball; and resbo means nine. Leshsrench (choice a) doesn't contain any of the words needed for cloud nine. We know that och means ball, so that rules out choices b and c. When you combine hapl (cloud) with resbo (nine), you get the correct answer."
+      }
+    },
+    "12": {
+      "question": "Here are some words translated from an artificial language. migenlasan means cupboard lasanpoen means boardwalk cuopdansa means pullman Which word could mean \"walkway\"?",
+      "options": {
+        "a.": "poenmigen",
+        "b.": "cuopeisel",
+        "c.": "lasandansa",
+        "d.": "poenforc  "
+      },
+      "answer": {
+        "d.": "Migen means cup; lasan means board; poen means walk; cuop means pull; and dansa means man. The only possible choices, then, are choices a and d. Choice a can be ruled out because migen means cup."
+      }
+    },
+    "13": {
+      "question": "Here are some words translated from an artificial language. morpirquat means birdhouse beelmorpir means bluebird beelclak means bluebell Which word could mean \"houseguest\"?",
+      "options": {
+        "a.": "morpirhunde",
+        "b.": "beelmoki",
+        "c.": "quathunde",
+        "d.": "clakquat"
+      },
+      "answer": {
+        "c.": "Morpir means bird; quat means house; beel means blue; clak means bell. Choice c, which begins with quat, is the only possible option."
+      }
+    },
+    "14": {
+      "question": "Here are some words translated from an artificial language. slar means jump slary means jumping slarend means jumped Which word could mean \"playing\"?",
+      "options": {
+        "a.": "clargslarend",
+        "b.": "clargy",
+        "c.": "ellaclarg",
+        "d.": "slarmont"
+      },
+      "answer": {
+        "b.": "According to this language, slar means jump. The suffix -ing is represented by -y. Since choice b is the only one that ends in the letter y, this is the only possible option."
+      }
+    },
+    "15": {
+      "question": "Here are some words translated from an artificial language. briftamint means militant uftonel means occupied uftonalene means occupation Which word could mean \"occupant\"?",
+      "options": {
+        "a.": "elbrifta",
+        "b.": "uftonamint",
+        "c.": "elamint",
+        "d.": "briftalene"
+      },
+      "answer": {
+        "b.": "Brift means the root word mili-; the suffix amint means the same as the English suffix -tant; the root word ufton- means occupy; el means the suffix -ied of occupied; and alene means the suffix -tion. (Because ufton means occupy, choices a, c, and d can be easily ruled out.)"
+      }
+    },
+    "16": {
+      "question": "Here are some words translated from an artificial language. krekinblaf means workforce dritakrekin means groundwork krekinalti means workplace Which word could mean \"someplace\"?",
+      "options": {
+        "a.": "moropalti",
+        "b.": "krekindrita",
+        "c.": "altiblaf",
+        "d.": "dritaalti"
+      },
+      "answer": {
+        "a.": "Krekin means work; blaf means force; drita means ground; and alti means place. Drita means ground, so that rules out choices b and d. Choice c isn't correct because blaf means force. That leaves choice a as the only possible answer."
+      }
+    },
+    "17": {
+      "question": "Here are some words translated from an artificial language. plekapaki means fruitcake pakishillen means cakewalk treftalan means buttercup Which word could mean \"cupcake\"?",
+      "options": {
+        "a.": "shillenalan",
+        "b.": "treftpleka",
+        "c.": "pakitreft",
+        "d.": "alanpaki"
+      },
+      "answer": {
+        "d.": "Pleka means fruit; paki means cake; shillen means walk; treft means butter; and alan means cup. Therefore, alanpaki means cupcake."
+      }
+    },
+    "18": {
+      "question": "Here are some words translated from an artificial language. peslligen means basketball court ligenstrisi means courtroom oltaganti means placement test Which word could mean \"guest room\"?",
+      "options": {
+        "a.": "peslstrisi",
+        "b.": "vosefstrisi",
+        "c.": "gantipesl",
+        "d.": "oltastrisi  "
+      },
+      "answer": {
+        "b.": "Pesl means basketball; ligen means court; strisi means room; olta means placement; and ganti means test. Because strisi means room, it must be present in the answer, so that rules out choice c. Choices a and d are incorrect because pesl means basketball and olta means placement. That leaves choice b as the only possible answer."
+      }
+    },
+    "19": {
+      "question": "Here are some words translated from an artificial language. jalkamofti means happy birthday moftihoze means birthday party mentogunn means goodness Which word could mean \"happiness\"?",
+      "options": {
+        "a.": "jalkagunn",
+        "b.": "mentohoze",
+        "c.": "moftihoze",
+        "d.": "hozemento"
+      },
+      "answer": {
+        "a.": "Jalka means happy; mofti means birthday; hoze means party; mento means good; and gunn means the suffix -ness. We know the answer must include the suffix -ness. The only choice that uses that suffix is choice a."
+      }
+    },
+    "20": {
+      "question": "Here are some words translated from an artificial language. mallonpiml means blue light mallontifl means blueberry arpantifl means raspberry Which word could mean \"lighthouse\"?",
+      "options": {
+        "a.": "tiflmallon",
+        "b.": "pimlarpan",
+        "c.": "mallonarpan",
+        "d.": "pimldoken"
+      },
+      "answer": {
+        "d.": "Mallon means blue; piml means light; tifl means berry; and arpan means \"rasp\" in raspberry. The word piml, which means light, is required for the word lighthouse. That rules out choices a and c. Arpan in choice b means \"rasp,\"so that rules out choice b. That leaves choice d the only possible answer."
+      }
+    },
+    "21": {
+      "question": "Here are some words translated from an artificial language. gemolinea means fair warning gerimitu means report card gilageri means weather report Which word could mean \"fair weather?\"",
+      "options": {
+        "a.": "gemogila",
+        "b.": "gerigeme",
+        "c.": "gemomitu",
+        "d.": "gerimita"
+      },
+      "answer": {
+        "a.": "Gemo means fair; linea means warning; geri means report; mitu means card; and gila means weather. Thus, gemogila is the correct choice."
+      }
+    },
+    "22": {
+      "question": "Here are some words translated from an artificial language. aptaose means first base eptaose means second base lartabuk means ballpark Which word could mean \"baseball\"?",
+      "options": {
+        "a.": "buklarta",
+        "b.": "oseepta",
+        "c.": "bukose",
+        "d.": "oselarta"
+      },
+      "answer": {
+        "d.": "Apta means first; ose means base; epta means second; larta means ball; and buk means park. Thus, oselarta means baseball."
+      }
+    },
+    "23": {
+      "question": "Here are some words translated from an artificial language. relftaga means carefree otaga means careful fertaga means careless Which word could mean \"aftercare\"?",
+      "options": {
+        "a.": "zentaga",
+        "b.": "tagafer",
+        "c.": "tagazen",
+        "d.": "relffer"
+      },
+      "answer": {
+        "c.": "In this language, the root word taga, which means care, follows the affix (relf, o-, or fer-). Therefore, in the word aftercare, the root word and the affix would be reversed in the artificial language. The only choice, then, is tagazen, because tagafer would mean less care."
+      }
+    },
+    "24": {
+      "question": "Here are some words translated from an artificial language. malgauper means peach cobbler malgaport means peach juice moggagrop means apple jelly Which word could mean \"apple juice\"?",
+      "options": {
+        "a.": "moggaport",
+        "b.": "malgaauper",
+        "c.": "gropport",
+        "d.": "moggagrop  "
+      },
+      "answer": {
+        "a.": "Malga means peach; uper means cobbler; port means juice; mogga means apple; and grop means jelly. Therefore, moggaport means apple juice."
+      }
+    }
+  }
+}

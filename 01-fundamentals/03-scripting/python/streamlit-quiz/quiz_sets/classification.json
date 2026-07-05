@@ -1,0 +1,424 @@
+{
+  "questions": {
+    "1": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "leopard",
+        "b.": "cougar",
+        "c.": "elephant",
+        "d.": "lion"
+      },
+      "answer": {
+        "c.": "A leopard, cougar, and lion all belong to the cat family; an elephant does not."
+      }
+    },
+    "2": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "couch",
+        "b.": "rug",
+        "c.": "table",
+        "d.": "chair"
+      },
+      "answer": {
+        "b.": "The couch, table, and chair are pieces of furniture; the rug is not."
+      }
+    },
+    "3": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "tape",
+        "b.": "twine",
+        "c.": "cord",
+        "d.": "yarn"
+      },
+      "answer": {
+        "a.": "The yarn, twine, and cord are all used for tying. The tape is not used in the same way."
+      }
+    },
+    "4": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "guitar",
+        "b.": "flute",
+        "c.": "violin",
+        "d.": "cello"
+      },
+      "answer": {
+        "b.": "The guitar, violin, and cello are stringed instruments; the flute is a wind instrument."
+      }
+    },
+    "5": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "tulip",
+        "b.": "rose",
+        "c.": "bud",
+        "d.": "daisy"
+      },
+      "answer": {
+        "c.": "Tulip, rose, and daisy are all types of flowers. A bud is not."
+      }
+    },
+    "6": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "tire",
+        "b.": "steering wheel",
+        "c.": "engine",
+        "d.": "car"
+      },
+      "answer": {
+        "d.": "Tire, steering wheel, and engine are all parts of a car."
+      }
+    },
+    "7": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "parsley",
+        "b.": "basil",
+        "c.": "dill",
+        "d.": "mayonnaise"
+      },
+      "answer": {
+        "d.": "Parsley, basil, and dill are types of herbs. Mayonnaise is not an herb."
+      }
+    },
+    "8": {
+      "question": "Which word does NOT belong with the  others?",
+      "options": {
+        "a.": "branch",
+        "b.": "dirt",
+        "c.": "leaf",
+        "d.": "root"
+      },
+      "answer": {
+        "b.": "A branch, leaf, and root are all parts of a tree. The dirt underneath is not a part of the tree."
+      }
+    },
+    "9": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "unimportant",
+        "b.": "trivial",
+        "c.": "insignificant",
+        "d.": "familiar"
+      },
+      "answer": {
+        "d.": "The first three choices are all synonyms."
+      }
+    },
+    "10": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "book",
+        "b.": "index",
+        "c.": "glossary",
+        "d.": "chapter  "
+      },
+      "answer": {
+        "a.": "An index, glossary, and chapter are all parts of a book. Choice a does not belong because the book is the whole, not a part."
+      }
+    },
+    "11": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "noun",
+        "b.": "preposition",
+        "c.": "punctuation",
+        "d.": "adverb"
+      },
+      "answer": {
+        "c.": "The noun, preposition, and adverb are classes of words that make up a sentence. Punctuation belongs in a sentence, but punctuation is not a class of word."
+      }
+    },
+    "12": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "cornea",
+        "b.": "retina",
+        "c.": "pupil",
+        "d.": "vision"
+      },
+      "answer": {
+        "d.": "The cornea, retina, and pupil are all parts of the eye."
+      }
+    },
+    "13": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "rye",
+        "b.": "sourdough",
+        "c.": "pumpernickel",
+        "d.": "loaf"
+      },
+      "answer": {
+        "d.": "Rye, sourdough, and pumpernickel are types of bread. A loaf is not a bread type."
+      }
+    },
+    "14": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "inch",
+        "b.": "ounce",
+        "c.": "centimeter",
+        "d.": "yard"
+      },
+      "answer": {
+        "b.": "An ounce measures weight; the other choices measure length."
+      }
+    },
+    "15": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "street",
+        "b.": "freeway",
+        "c.": "interstate",
+        "d.": "expressway"
+      },
+      "answer": {
+        "a.": "Freeway, interstate, and expressway are all highspeed highways; a street is for low-speed traffic."
+      }
+    },
+    "16": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "dodge",
+        "b.": "flee",
+        "c.": "duck",
+        "d.": "avoid"
+      },
+      "answer": {
+        "b.": "Dodge, duck, and avoid are all synonyms meaning evade. Flee means to run away from."
+      }
+    },
+    "17": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "heading",
+        "b.": "body",
+        "c.": "letter",
+        "d.": "closing  "
+      },
+      "answer": {
+        "c.": "Heading, body, and closing are all parts of a letter; the letter is the whole, not a part."
+      }
+    },
+    "18": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "core",
+        "b.": "seeds",
+        "c.": "pulp",
+        "d.": "slice"
+      },
+      "answer": {
+        "d.": "The core, seeds, and pulp are all parts of an apple. A slice would be a piece taken out of an apple."
+      }
+    },
+    "19": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "unique",
+        "b.": "beautiful",
+        "c.": "rare",
+        "d.": "exceptional"
+      },
+      "answer": {
+        "b.": "Unique, rare, and exceptional are all synonyms. Beautiful has a different meaning."
+      }
+    },
+    "20": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "biology",
+        "b.": "chemistry",
+        "c.": "theology",
+        "d.": "zoology"
+      },
+      "answer": {
+        "c.": "Biology, chemistry, and zoology are all branches of science. Theology is the study of religion."
+      }
+    },
+    "21": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "triangle",
+        "b.": "circle",
+        "c.": "oval",
+        "d.": "sphere"
+      },
+      "answer": {
+        "a.": "A circle, oval, and sphere are all circular shapes with no angles. A triangle is a different kind of shape with angles and three straight sides."
+      }
+    },
+    "22": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "excite",
+        "b.": "flourish",
+        "c.": "prosper",
+        "d.": "thrive"
+      },
+      "answer": {
+        "a.": "Flourish, prosper, and thrive are all synonyms; excite does not mean the same thing."
+      }
+    },
+    "23": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "evaluate",
+        "b.": "assess",
+        "c.": "appraise",
+        "d.": "instruct"
+      },
+      "answer": {
+        "d.": "Evaluate, assess, and appraise are all synonyms; instruct does not mean the same thing."
+      }
+    },
+    "24": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "eel",
+        "b.": "lobster",
+        "c.": "crab",
+        "d.": "shrimp"
+      },
+      "answer": {
+        "a.": "The lobster, crab, and shrimp are all types of crustaceans; an eel is a fish."
+      }
+    },
+    "25": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "scythe",
+        "b.": "knife",
+        "c.": "pliers",
+        "d.": "saw"
+      },
+      "answer": {
+        "c.": "The scythe, knife, and saw are all cutting tools. Pliers are tools, but they are not used for cutting."
+      }
+    },
+    "26": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "two",
+        "b.": "three",
+        "c.": "six",
+        "d.": "eight"
+      },
+      "answer": {
+        "b.": "Two, six, and eight are all even numbers; three is an odd number."
+      }
+    },
+    "27": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "peninsula",
+        "b.": "island",
+        "c.": "bay",
+        "d.": "cape"
+      },
+      "answer": {
+        "c.": "A peninsula, island, and cape are all landforms; a bay is a body of water."
+      }
+    },
+    "28": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "seat",
+        "b.": "rung",
+        "c.": "cushion",
+        "d.": "leg  "
+      },
+      "answer": {
+        "c.": "Seat, rung, and leg are all parts of a chair. Not all chairs have cushions."
+      }
+    },
+    "29": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "fair",
+        "b.": "just",
+        "c.": "equitable",
+        "d.": "favorable"
+      },
+      "answer": {
+        "d.": "Fair, just, and equitable are all synonyms meaning impartial. Favorable means expressing approval."
+      }
+    },
+    "30": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "defendant",
+        "b.": "prosecutor",
+        "c.": "trial",
+        "d.": "judge"
+      },
+      "answer": {
+        "c.": "Defendant, prosecutor, and judge are all persons involved in a trial. A trial is not a person."
+      }
+    },
+    "31": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "area",
+        "b.": "variable",
+        "c.": "circumference",
+        "d.": "quadrilateral"
+      },
+      "answer": {
+        "b.": "Area, circumference, and quadrilateral are all terms used in the study of geometry. Variable is a term generally used in the study of algebra."
+      }
+    },
+    "32": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "mayor",
+        "b.": "lawyer",
+        "c.": "governor",
+        "d.": "senator"
+      },
+      "answer": {
+        "b.": "The mayor, governor, and senator are all persons elected to government offices; the lawyer is not an elected official."
+      }
+    },
+    "33": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "acute",
+        "b.": "right",
+        "c.": "obtuse",
+        "d.": "parallel"
+      },
+      "answer": {
+        "d.": "Acute, right, and obtuse are geometric terms describing particular angles. Parallel refers to two lines that never intersect."
+      }
+    },
+    "34": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "wing",
+        "b.": "fin",
+        "c.": "beak",
+        "d.": "rudder"
+      },
+      "answer": {
+        "c.": "The wing, fin, and rudder are all parts of an airplane."
+      }
+    },
+    "35": {
+      "question": "Which word does NOT belong with the others?",
+      "options": {
+        "a.": "aorta",
+        "b.": "heart",
+        "c.": "liver",
+        "d.": "stomach  "
+      },
+      "answer": {
+        "a.": "The heart, liver, and stomach are all organs of the body. The aorta is an artery, not an organ."
+      }
+    }
+  }
+}

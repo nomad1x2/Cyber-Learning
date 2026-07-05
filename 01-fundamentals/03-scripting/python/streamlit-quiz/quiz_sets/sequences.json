@@ -1,0 +1,148 @@
+{
+  "questions": {
+    "1": {
+      "question": "QPO NML KJI _____ EDC",
+      "options": {
+        "a.": "HGF",
+        "b.": "CAB",
+        "c.": "JKL",
+        "d.": "GHI"
+      },
+      "answer": {
+        "a.": "This series consists of letters in a reverse alphabetical order."
+      }
+    },
+    "2": {
+      "question": "JAK KBL LCM MDN _____",
+      "options": {
+        "a.": "OEP",
+        "b.": "NEO",
+        "c.": "MEN",
+        "d.": "PFQ"
+      },
+      "answer": {
+        "b.": "This is an alternating series in alphabetical order. The middle letters follow the order ABCDE. The first and third letters are alphabetical beginning with J. The third letter is repeated as a first letter in each subsequent three-letter segment."
+      }
+    },
+    "3": {
+      "question": "B2CD _____ BCD4 B5CD BC6D",
+      "options": {
+        "a.": "B2C2D",
+        "b.": "BC3D",
+        "c.": "B2C3D",
+        "d.": "BCD7"
+      },
+      "answer": {
+        "b.": "Because the letters are the same, concentrate on the number series, which is a simple 2, 3,"
+      }
+    },
+    "4": {
+      "question": "ELFA GLHA ILJA _____ MLNA",
+      "options": {
+        "a.": "OLPA",
+        "b.": "KLMA",
+        "c.": "LLMA",
+        "d.": "KLLA"
+      },
+      "answer": {
+        "d.": "The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E."
+      }
+    },
+    "5": {
+      "question": "P5QR P4QS P3QT _____ PQV",
+      "options": {
+        "a.": "PQW",
+        "b.": "PQV2",
+        "c.": "P2QU",
+        "d.": "PQ3U"
+      },
+      "answer": {
+        "c.": "The first two letters, PQ, are static. The third letter is in alphabetical order, beginning with R. The number series is in descending order beginning with 5."
+      }
+    },
+    "6": {
+      "question": "CMM EOO GQQ _____ KUU",
+      "options": {
+        "a.": "GRR",
+        "b.": "GSS",
+        "c.": "ISS",
+        "d.": "ITT"
+      },
+      "answer": {
+        "c.": "The first letters are in alphabetical order with a letter skipped in between each segment: C, E, G, I, K. The second and third letters are repeated; they are also in order with a skipped letter: M, O, Q, S, U."
+      }
+    },
+    "7": {
+      "question": "QAR RAS SAT TAU _____",
+      "options": {
+        "a.": "UAV",
+        "b.": "UAT",
+        "c.": "TAS",
+        "d.": "TAT"
+      },
+      "answer": {
+        "a.": "In this series, the third letter is repeated as the first letter of the next segment. The middle letter, A, remains static. The third letters are in alphabetical order, beginning with R."
+      }
+    },
+    "8": {
+      "question": "DEF DEF2 DE2F2 _____ D2E2F3",
+      "options": {
+        "a.": "DEF3",
+        "b.": "D3EF3",
+        "c.": "D2E3F",
+        "d.": "D2E2F2"
+      },
+      "answer": {
+        "d.": "In this series, the letters remain the same: DEF. The subscript numbers follow this series: 1,1,1; 1,1,2; 1,2,2; 2,2,2; 2,2,3."
+      }
+    },
+    "9": {
+      "question": "SCD TEF UGH ____ WKL",
+      "options": {
+        "a.": "CMN",
+        "b.": "UJI",
+        "c.": "VIJ",
+        "d.": "IJT"
+      },
+      "answer": {
+        "c.": "There are two alphabetical series here. The first series is with the first letters only: STUVW. The second series involves the remaining letters: CD, EF, GH, IJ, KL."
+      }
+    },
+    "10": {
+      "question": "FAG GAF HAI IAH ____",
+      "options": {
+        "a.": "JAK",
+        "b.": "HAL",
+        "c.": "HAK",
+        "d.": "JAI"
+      },
+      "answer": {
+        "a.": "The middle letters are static, so concentrate on the first and third letters. The series involves an alphabetical order with a reversal of the letters. The first letters are in alphabetical order: F, G, H, I, J. The second and fourth segments are reversals of the first and third segments. The missing segment begins with a new letter."
+      }
+    },
+    "11": {
+      "question": "BCB DED FGF HIH ___",
+      "options": {
+        "a.": "JKJ",
+        "b.": "HJH",
+        "c.": "IJI",
+        "d.": "JHJ"
+      },
+      "answer": {
+        "a.": "This series consists of a simple alphabetical order with the first two letters of all segments: B, C, D, E, F, G, H, I, J, K. The third letter of each segment is a repetition of the first letter."
+      }
+    },
+    "12": {
+      "question": "ZA5 Y4B XC6 W3D _____",
+      "options": {
+        "a.": "E7V",
+        "b.": "V2E",
+        "c.": "VE5",
+        "d.": "VE7  "
+      },
+      "answer": {
+        "d.": "There are three series to look for here. The first letters are alphabetical in reverse: Z, Y, X, W, V. The second letters are in alphabetical order, beginning with A. The number series is as follows: 5, 4, 6, 3, 7."
+      }
+    }
+  }
+}
