@@ -2,6 +2,8 @@
 
 ## find
 
+search for files in a directory hierarchy
+
 ```bash
 # Find a file by name
 find / -name "example.txt"
@@ -22,6 +24,8 @@ _Could also pipe into grep for more regex_
 
 ## cp
 
+copy files and directories
+
 ```bash
 # Copy a file
 cp file.txt /destination/
@@ -34,15 +38,31 @@ cp -r /source/ /destination/
 
 ## locate
 
+find files by name, quickly
+- Needs a current indexed file database (run `updatedb`) before locate will find newly created files
+
 ```bash
-# Needs a current indexed file database (run `updatedb`)
-# Must be run before locate will find newly created files
-locate example.txt
+# simple locate
+locate /example.txt
+
+# only match basename
+locate -b /example.txt
+
+# case insensitive
+locate -i example.txt 
+
+# regex
+locate -r example.txt
+
+# extended regex
+locate --regex example.txt 
 ```
 
 ---
 
 ## grep
+
+print lines that match patterns
 
 ```bash
 # Search for a string in a file
@@ -76,6 +96,9 @@ grep -C 3 "pattern" /file.txt
 ---
 
 ## dd
+
+convert and copy a file
+- normally use `cp` to copy files/directories unless needing granular byte control 
 
 ```bash
 # Disk/partition imaging; create a raw byte-for-byte backup
@@ -122,7 +145,46 @@ _Need to be careful, `dd` will silently overwrite data_
 
 ---
 
+## sed
+
+stream editor for filtering and transforming text
+
+```bash
+# add "First line" to the first line in file.txt
+sed -i '1i First line' file.txt
+
+# replace first match on each line
+sed -i 's/old/new/' file
+
+# only print displaying match replacements
+sed 's/old/new/g' file
+
+# replace second match
+sed -i 's/old/new/2' file
+
+# case-insensitive replace
+sed -i 's/old/new/Ig' file
+
+# only print and collapse white space
+sed 's/[[:space:]]\+//g' file
+
+# replace using regex
+sed -E 's/[old]/new/Ig' file
+```
+
+| Option | Description |
+|--------|-------------|
+|`-i`|Edit in place|
+|`-E`|Regex|
+
+Ref:
+- https://linuxize.com/cheatsheet/sed/
+
+---
+
 ## vim
+
+Vi IMproved, a programmer's text editor
 
 ```bash
 vim file.txt
@@ -130,11 +192,13 @@ vim file.txt
 _Basic vim: `i` to insert (start typing), `ESC` to exit insert (run commands:), `:wq` to save and quit, `:q!` to quit without saving_
 
 ---
+
 ## RegEx
 
 | Pattern | Description |
 |---------|-------------|
 | `[a-z]` | Lowercase range, matches any single lowercase letter |
+| `[abc]` | Lowercase a, b, or c |
 | `[A-Z]` | Uppercase range, matches any single uppercase letter |
 | `[0-9]` | Numeric range, matches any single digit from 0 to 9 |
 | `[a-zA-Z0-9]` | Alphanumeric, matches any letter or number |
